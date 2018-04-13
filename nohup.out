@@ -1,0 +1,1024 @@
+2016-08-25 06:48:18+0800 [-] Log opened.
+2016-08-25 06:48:18+0800 [-] DelaySite starting on 11821
+2016-08-25 06:48:18+0800 [-] Starting factory <firefly.web.delayrequest.DelaySite instance at 0x7f0f0cbaaef0>
+2016-08-25 06:48:18+0800 [-] BilateralFactory starting on 11812
+2016-08-25 06:48:18+0800 [-] Starting factory <firefly.distributed.root.BilateralFactory instance at 0x7f0f0cbb9680>
+2016-08-25 06:48:19+0800 [BilateralBroker,0,127.0.0.1] node [share] takeProxy ready
+2016-08-25 06:48:19+0800 [BilateralBroker,1,127.0.0.1] node [net] takeProxy ready
+2016-08-25 06:48:20+0800 [BilateralBroker,2,127.0.0.1] node [auth] takeProxy ready
+2016-08-25 06:48:20+0800 [BilateralBroker,3,127.0.0.1] node [game3] takeProxy ready
+2016-08-25 06:48:20+0800 [BilateralBroker,4,127.0.0.1] node [game6] takeProxy ready
+2016-08-25 06:48:20+0800 [BilateralBroker,5,127.0.0.1] node [game1] takeProxy ready
+2016-08-25 06:48:20+0800 [BilateralBroker,7,127.0.0.1] node [game5] takeProxy ready
+2016-08-25 06:48:20+0800 [BilateralBroker,6,127.0.0.1] node [game2] takeProxy ready
+2016-08-25 06:48:20+0800 [BilateralBroker,8,127.0.0.1] node [game4] takeProxy ready
+2016-08-25 06:48:20+0800 [BilateralBroker,9,127.0.0.1] node [game8] takeProxy ready
+2016-08-25 06:48:20+0800 [BilateralBroker,10,127.0.0.1] node [game7] takeProxy ready
+2016-08-25 06:48:20+0800 [BilateralBroker,11,127.0.0.1] node [gate] takeProxy ready
+2016-08-25 07:24:13+0800 [-] "127.0.0.1" - - [24/Aug/2016:23:24:12 +0000] "GET /stop HTTP/1.0" 200 4 "-" "Python-urllib/1.17"
+2016-08-25 07:24:13+0800 [BilateralBroker,8,127.0.0.1] node [8] lose
+2016-08-25 07:24:13+0800 [BilateralBroker,11,127.0.0.1] node [11] lose
+2016-08-25 07:24:13+0800 [BilateralBroker,6,127.0.0.1] node [6] lose
+2016-08-25 07:24:13+0800 [BilateralBroker,9,127.0.0.1] node [9] lose
+2016-08-25 07:24:13+0800 [BilateralBroker,7,127.0.0.1] node [7] lose
+2016-08-25 07:24:13+0800 [BilateralBroker,1,127.0.0.1] node [1] lose
+2016-08-25 07:24:13+0800 [BilateralBroker,3,127.0.0.1] node [3] lose
+2016-08-25 07:24:13+0800 [firefly.distributed.root.BilateralFactory] (TCP Port 11812 Closed)
+2016-08-25 07:24:13+0800 [firefly.distributed.root.BilateralFactory] Stopping factory <firefly.distributed.root.BilateralFactory instance at 0x7f0f0cbb9680>
+2016-08-25 07:24:13+0800 [firefly.web.delayrequest.DelaySite] (TCP Port 11821 Closed)
+2016-08-25 07:24:13+0800 [firefly.web.delayrequest.DelaySite] Stopping factory <firefly.web.delayrequest.DelaySite instance at 0x7f0f0cbaaef0>
+2016-08-25 07:24:13+0800 [BilateralBroker,0,127.0.0.1] node [0] lose
+2016-08-25 07:24:13+0800 [BilateralBroker,10,127.0.0.1] node [10] lose
+2016-08-25 07:24:13+0800 [BilateralBroker,2,127.0.0.1] node [2] lose
+2016-08-25 07:24:13+0800 [BilateralBroker,5,127.0.0.1] node [5] lose
+2016-08-25 07:24:13+0800 [BilateralBroker,4,127.0.0.1] node [4] lose
+2016-08-25 07:24:13+0800 [-] Main loop terminated.
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f59962e0d10>> ignored
+DELETE FROM tb_item WHERE id=123
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f686c341e10>> ignored
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f789cdbad10>> ignored
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f523a0afe10>> ignored
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7fdb3c755e10>> ignored
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f2613c05e10>> ignored
+DELETE FROM tb_item WHERE id=123
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f878a8d1e10>> ignored
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f269a4a4d90>> ignored
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f693d563dd0>> ignored
+DELETE FROM tb_item WHERE id=123
+DELETE FROM tb_item WHERE id=123
+DELETE FROM tb_item WHERE id=123
+DELETE FROM tb_item WHERE id=123
+DELETE FROM tb_item WHERE id=123
+DELETE FROM tb_item WHERE id=123
+DELETE FROM tb_item WHERE id=123
+DELETE FROM tb_item WHERE id=123
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f0718c81d90>> ignored
+DELETE FROM tb_item WHERE id=123
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f00c4fd0e10>> ignored
+DELETE FROM tb_item WHERE id=123
+2016-08-25 07:32:23+0800 [-] Log opened.
+2016-08-25 07:32:23+0800 [-] DelaySite starting on 11821
+2016-08-25 07:32:23+0800 [-] Starting factory <firefly.web.delayrequest.DelaySite instance at 0x7fc05e957ef0>
+2016-08-25 07:32:23+0800 [-] BilateralFactory starting on 11812
+2016-08-25 07:32:23+0800 [-] Starting factory <firefly.distributed.root.BilateralFactory instance at 0x7fc05e966680>
+2016-08-25 07:32:24+0800 [BilateralBroker,0,127.0.0.1] node [share] takeProxy ready
+2016-08-25 07:32:25+0800 [BilateralBroker,1,127.0.0.1] node [net] takeProxy ready
+2016-08-25 07:32:25+0800 [BilateralBroker,2,127.0.0.1] node [auth] takeProxy ready
+2016-08-25 07:32:25+0800 [BilateralBroker,3,127.0.0.1] node [game5] takeProxy ready
+2016-08-25 07:32:25+0800 [BilateralBroker,4,127.0.0.1] node [game7] takeProxy ready
+2016-08-25 07:32:25+0800 [BilateralBroker,5,127.0.0.1] node [game6] takeProxy ready
+2016-08-25 07:32:25+0800 [BilateralBroker,6,127.0.0.1] node [game3] takeProxy ready
+2016-08-25 07:32:25+0800 [BilateralBroker,7,127.0.0.1] node [game8] takeProxy ready
+2016-08-25 07:32:25+0800 [BilateralBroker,8,127.0.0.1] node [game2] takeProxy ready
+2016-08-25 07:32:25+0800 [BilateralBroker,9,127.0.0.1] node [game4] takeProxy ready
+2016-08-25 07:32:25+0800 [BilateralBroker,10,127.0.0.1] node [game1] takeProxy ready
+2016-08-25 07:32:25+0800 [-] Received SIGINT, shutting down.
+2016-08-25 07:32:25+0800 [BilateralBroker,1,127.0.0.1] node [1] lose
+2016-08-25 07:32:25+0800 [BilateralBroker,7,127.0.0.1] node [7] lose
+2016-08-25 07:32:25+0800 [BilateralBroker,10,127.0.0.1] node [10] lose
+2016-08-25 07:32:25+0800 [BilateralBroker,8,127.0.0.1] node [8] lose
+2016-08-25 07:32:25+0800 [BilateralBroker,6,127.0.0.1] node [6] lose
+2016-08-25 07:32:25+0800 [firefly.web.delayrequest.DelaySite] (TCP Port 11821 Closed)
+2016-08-25 07:32:25+0800 [firefly.web.delayrequest.DelaySite] Stopping factory <firefly.web.delayrequest.DelaySite instance at 0x7fc05e957ef0>
+2016-08-25 07:32:25+0800 [BilateralBroker,5,127.0.0.1] node [5] lose
+2016-08-25 07:32:25+0800 [BilateralBroker,3,127.0.0.1] node [3] lose
+2016-08-25 07:32:25+0800 [BilateralBroker,0,127.0.0.1] node [0] lose
+2016-08-25 07:32:25+0800 [BilateralBroker,9,127.0.0.1] node [9] lose
+2016-08-25 07:32:25+0800 [firefly.distributed.root.BilateralFactory] (TCP Port 11812 Closed)
+2016-08-25 07:32:25+0800 [firefly.distributed.root.BilateralFactory] Stopping factory <firefly.distributed.root.BilateralFactory instance at 0x7fc05e966680>
+2016-08-25 07:32:25+0800 [BilateralBroker,4,127.0.0.1] node [4] lose
+2016-08-25 07:32:25+0800 [BilateralBroker,2,127.0.0.1] node [2] lose
+2016-08-25 07:32:25+0800 [-] Main loop terminated.
+DELETE FROM tb_item WHERE id=123
+Exception TypeError: DELETE FROM tb_item WHERE id=123
+"'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7ff5631bde10>> ignored
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f68aeaaee10>> ignored
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7ff3b920ce10>> ignored
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f88eeea4e10>> ignored
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7fd0e7c44e10>> ignored
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7fa805be3e10>> ignored
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f567e183e10>> ignored
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f2585397e10>> ignored
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7ffba2e31e10>> ignored
+DELETE FROM tb_item WHERE id=123
+DELETE FROM tb_item WHERE id=123
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f999293ee10>> ignored
+DELETE FROM tb_item WHERE id=123
+DELETE FROM tb_item WHERE id=123
+DELETE FROM tb_item WHERE id=123
+DELETE FROM tb_item WHERE id=123
+DELETE FROM tb_item WHERE id=123
+DELETE FROM tb_item WHERE id=123
+DELETE FROM tb_item WHERE id=123
+DELETE FROM tb_item WHERE id=123
+2016-08-25 07:32:53+0800 [-] Log opened.
+2016-08-25 07:32:53+0800 [-] DelaySite starting on 11821
+2016-08-25 07:32:53+0800 [-] Starting factory <firefly.web.delayrequest.DelaySite instance at 0x7fc2771fef38>
+2016-08-25 07:32:53+0800 [-] BilateralFactory starting on 11812
+2016-08-25 07:32:53+0800 [-] Starting factory <firefly.distributed.root.BilateralFactory instance at 0x7fc27720f6c8>
+2016-08-25 07:32:54+0800 [BilateralBroker,0,127.0.0.1] node [share] takeProxy ready
+2016-08-25 07:32:54+0800 [BilateralBroker,1,127.0.0.1] node [net] takeProxy ready
+2016-08-25 07:32:55+0800 [BilateralBroker,2,127.0.0.1] node [auth] takeProxy ready
+2016-08-25 07:32:55+0800 [BilateralBroker,3,127.0.0.1] node [game6] takeProxy ready
+2016-08-25 07:32:55+0800 [BilateralBroker,4,127.0.0.1] node [game5] takeProxy ready
+2016-08-25 07:32:55+0800 [BilateralBroker,5,127.0.0.1] node [game7] takeProxy ready
+2016-08-25 07:32:55+0800 [BilateralBroker,6,127.0.0.1] node [game1] takeProxy ready
+2016-08-25 07:32:55+0800 [BilateralBroker,7,127.0.0.1] node [game4] takeProxy ready
+2016-08-25 07:32:55+0800 [BilateralBroker,8,127.0.0.1] node [game2] takeProxy ready
+2016-08-25 07:32:55+0800 [BilateralBroker,9,127.0.0.1] node [game3] takeProxy ready
+2016-08-25 07:32:55+0800 [BilateralBroker,10,127.0.0.1] node [game8] takeProxy ready
+2016-08-25 07:32:55+0800 [BilateralBroker,11,127.0.0.1] node [gate] takeProxy ready
+2016-08-29 07:17:11+0800 [-] "127.0.0.1" - - [28/Aug/2016:23:17:10 +0000] "GET /stop HTTP/1.0" 200 4 "-" "Python-urllib/1.17"
+2016-08-29 07:17:12+0800 [BilateralBroker,5,127.0.0.1] node [5] lose
+2016-08-29 07:17:12+0800 [-] Unhandled error in Deferred:
+2016-08-29 07:17:12+0800 [-] Unhandled Error
+	Traceback (most recent call last):
+	Failure: twisted.spread.pb.PBConnectionLost: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
+	]
+	
+2016-08-29 07:17:12+0800 [BilateralBroker,11,127.0.0.1] node [11] lose
+2016-08-29 07:17:12+0800 [-] Unhandled error in Deferred:
+2016-08-29 07:17:12+0800 [-] Unhandled Error
+	Traceback (most recent call last):
+	Failure: twisted.spread.pb.PBConnectionLost: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
+	]
+	
+2016-08-29 07:17:12+0800 [BilateralBroker,10,127.0.0.1] node [10] lose
+2016-08-29 07:17:12+0800 [BilateralBroker,0,127.0.0.1] node [0] lose
+2016-08-29 07:17:12+0800 [BilateralBroker,1,127.0.0.1] node [1] lose
+2016-08-29 07:17:12+0800 [BilateralBroker,6,127.0.0.1] node [6] lose
+2016-08-29 07:17:12+0800 [BilateralBroker,9,127.0.0.1] node [9] lose
+2016-08-29 07:17:12+0800 [BilateralBroker,4,127.0.0.1] node [4] lose
+2016-08-29 07:17:12+0800 [BilateralBroker,7,127.0.0.1] node [7] lose
+2016-08-29 07:17:12+0800 [BilateralBroker,8,127.0.0.1] node [8] lose
+2016-08-29 07:17:12+0800 [BilateralBroker,2,127.0.0.1] node [2] lose
+2016-08-29 07:17:12+0800 [firefly.web.delayrequest.DelaySite] (TCP Port 11821 Closed)
+2016-08-29 07:17:12+0800 [firefly.web.delayrequest.DelaySite] Stopping factory <firefly.web.delayrequest.DelaySite instance at 0x7fc2771fef38>
+2016-08-29 07:17:12+0800 [BilateralBroker,3,127.0.0.1] node [3] lose
+2016-08-29 07:17:12+0800 [firefly.distributed.root.BilateralFactory] (TCP Port 11812 Closed)
+2016-08-29 07:17:12+0800 [firefly.distributed.root.BilateralFactory] Stopping factory <firefly.distributed.root.BilateralFactory instance at 0x7fc27720f6c8>
+2016-08-29 07:17:12+0800 [-] Main loop terminated.
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f0fbb8d9e10>> ignored
+DELETE FROM tb_item WHERE id=123
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f8f97fbee10>> ignored
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7fad871b3e10>> ignored
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f30d3058e10>> ignored
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7fa7ce8b9e10>> ignored
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f3815827e10>> ignored
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7fe0632cce10>> ignored
+DELETE FROM tb_item WHERE id=123
+Exception DELETE FROM tb_item WHERE id=123
+DELETE FROM tb_item WHERE id=123
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f3fc685ae10>> ignored
+DELETE FROM tb_item WHERE id=123
+DELETE FROM tb_item WHERE id=123
+DELETE FROM tb_item WHERE id=123
+TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f3370117e10>> ignored
+DELETE FROM tb_item WHERE id=123
+DELETE FROM tb_item WHERE id=123
+DELETE FROM tb_item WHERE id=123
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f1513038e10>> ignored
+DELETE FROM tb_item WHERE id=123
+2016-08-29 07:20:57+0800 [-] Log opened.
+2016-08-29 07:20:57+0800 [-] DelaySite starting on 33821
+2016-08-29 07:20:57+0800 [-] Starting factory <firefly.web.delayrequest.DelaySite instance at 0x7f4fc4fecf38>
+2016-08-29 07:20:57+0800 [-] BilateralFactory starting on 11812
+2016-08-29 07:20:57+0800 [-] Starting factory <firefly.distributed.root.BilateralFactory instance at 0x7f4fc4ffd6c8>
+2016-08-29 07:20:58+0800 [BilateralBroker,0,127.0.0.1] node [share] takeProxy ready
+2016-08-29 07:20:58+0800 [BilateralBroker,1,127.0.0.1] node [net] takeProxy ready
+2016-08-29 07:20:58+0800 [BilateralBroker,2,127.0.0.1] node [auth] takeProxy ready
+2016-08-29 07:20:59+0800 [BilateralBroker,3,127.0.0.1] node [game1] takeProxy ready
+2016-08-29 07:20:59+0800 [BilateralBroker,5,127.0.0.1] node [game8] takeProxy ready
+2016-08-29 07:20:59+0800 [BilateralBroker,4,127.0.0.1] node [game7] takeProxy ready
+2016-08-29 07:20:59+0800 [BilateralBroker,6,127.0.0.1] node [game2] takeProxy ready
+2016-08-29 07:20:59+0800 [BilateralBroker,7,127.0.0.1] node [game5] takeProxy ready
+2016-08-29 07:20:59+0800 [BilateralBroker,8,127.0.0.1] node [game3] takeProxy ready
+2016-08-29 07:20:59+0800 [BilateralBroker,9,127.0.0.1] node [game4] takeProxy ready
+2016-08-29 07:20:59+0800 [BilateralBroker,10,127.0.0.1] node [game6] takeProxy ready
+2016-08-29 07:20:59+0800 [BilateralBroker,11,127.0.0.1] node [gate] takeProxy ready
+2016-08-29 07:54:12+0800 [-] "127.0.0.1" - - [28/Aug/2016:23:54:11 +0000] "GET /stop HTTP/1.0" 200 4 "-" "Python-urllib/1.17"
+2016-08-29 07:54:13+0800 [BilateralBroker,10,127.0.0.1] node [10] lose
+2016-08-29 07:54:13+0800 [BilateralBroker,8,127.0.0.1] node [8] lose
+2016-08-29 07:54:13+0800 [BilateralBroker,11,127.0.0.1] node [11] lose
+2016-08-29 07:54:13+0800 [BilateralBroker,9,127.0.0.1] node [9] lose
+2016-08-29 07:54:13+0800 [BilateralBroker,0,127.0.0.1] node [0] lose
+2016-08-29 07:54:13+0800 [BilateralBroker,1,127.0.0.1] node [1] lose
+2016-08-29 07:54:13+0800 [BilateralBroker,5,127.0.0.1] node [5] lose
+2016-08-29 07:54:13+0800 [BilateralBroker,3,127.0.0.1] node [3] lose
+2016-08-29 07:54:13+0800 [BilateralBroker,4,127.0.0.1] node [4] lose
+2016-08-29 07:54:13+0800 [firefly.distributed.root.BilateralFactory] (TCP Port 11812 Closed)
+2016-08-29 07:54:13+0800 [firefly.distributed.root.BilateralFactory] Stopping factory <firefly.distributed.root.BilateralFactory instance at 0x7f4fc4ffd6c8>
+2016-08-29 07:54:13+0800 [BilateralBroker,2,127.0.0.1] node [2] lose
+2016-08-29 07:54:13+0800 [BilateralBroker,7,127.0.0.1] node [7] lose
+2016-08-29 07:54:13+0800 [BilateralBroker,6,127.0.0.1] node [6] lose
+2016-08-29 07:54:13+0800 [firefly.web.delayrequest.DelaySite] (TCP Port 33821 Closed)
+2016-08-29 07:54:13+0800 [firefly.web.delayrequest.DelaySite] Stopping factory <firefly.web.delayrequest.DelaySite instance at 0x7f4fc4fecf38>
+2016-08-29 07:54:13+0800 [-] Main loop terminated.
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f29a60bcd10>> ignored
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7fa0044acd10>> ignored
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f0c1fa5be10>> ignored
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f0a89971e10>> ignored
+DELETE FROM tb_item WHERE id=123
+DELETE FROM tb_item WHERE id=123
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f8fdb77be10>> ignored
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7fd79ddeae10>> ignored
+DELETE FROM tb_item WHERE id=123
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f9bd73b3d10>> ignored
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f85637a4e10>> ignored
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f548b10fe10>> ignored
+DELETE FROM tb_item WHERE id=123
+DELETE FROM tb_item WHERE id=123
+DELETE FROM tb_item WHERE id=123
+DELETE FROM tb_item WHERE id=123
+DELETE FROM tb_item WHERE id=123
+DELETE FROM tb_item WHERE id=123
+DELETE FROM tb_item WHERE id=123
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7fc9b4babd50>> ignored
+DELETE FROM tb_item WHERE id=123
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f4f97821e10>> ignored
+DELETE FROM tb_item WHERE id=123
+2016-08-29 08:32:28+0800 [-] Log opened.
+2016-08-29 08:32:28+0800 [-] DelaySite starting on 33821
+2016-08-29 08:32:28+0800 [-] Starting factory <firefly.web.delayrequest.DelaySite instance at 0x7f522a138f38>
+2016-08-29 08:32:28+0800 [-] BilateralFactory starting on 11812
+2016-08-29 08:32:28+0800 [-] Starting factory <firefly.distributed.root.BilateralFactory instance at 0x7f522a1496c8>
+2016-08-29 08:32:29+0800 [BilateralBroker,0,127.0.0.1] node [share] takeProxy ready
+2016-08-29 08:32:29+0800 [BilateralBroker,1,127.0.0.1] node [net] takeProxy ready
+2016-08-29 08:32:29+0800 [BilateralBroker,2,127.0.0.1] node [auth] takeProxy ready
+2016-08-29 08:32:30+0800 [BilateralBroker,3,127.0.0.1] node [game6] takeProxy ready
+2016-08-29 08:32:30+0800 [BilateralBroker,4,127.0.0.1] node [game3] takeProxy ready
+2016-08-29 08:32:30+0800 [BilateralBroker,5,127.0.0.1] node [game4] takeProxy ready
+2016-08-29 08:32:30+0800 [BilateralBroker,6,127.0.0.1] node [game5] takeProxy ready
+2016-08-29 08:32:30+0800 [BilateralBroker,7,127.0.0.1] node [game1] takeProxy ready
+2016-08-29 08:32:30+0800 [BilateralBroker,8,127.0.0.1] node [game2] takeProxy ready
+2016-08-29 08:32:30+0800 [BilateralBroker,9,127.0.0.1] node [game8] takeProxy ready
+2016-08-29 08:32:30+0800 [BilateralBroker,10,127.0.0.1] node [game7] takeProxy ready
+2016-08-29 08:32:30+0800 [BilateralBroker,11,127.0.0.1] node [gate] takeProxy ready
+2016-09-07 06:52:24+0800 [-] "127.0.0.1" - - [06/Sep/2016:22:52:23 +0000] "GET /stop HTTP/1.0" 200 4 "-" "Python-urllib/1.17"
+2016-09-07 06:52:24+0800 [BilateralBroker,5,127.0.0.1] node [5] lose
+2016-09-07 06:52:24+0800 [BilateralBroker,3,127.0.0.1] node [3] lose
+2016-09-07 06:52:24+0800 [BilateralBroker,11,127.0.0.1] node [11] lose
+2016-09-07 06:52:24+0800 [-] Unhandled error in Deferred:
+2016-09-07 06:52:24+0800 [-] Unhandled Error
+	Traceback (most recent call last):
+	Failure: twisted.spread.pb.PBConnectionLost: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
+	]
+	
+2016-09-07 06:52:24+0800 [BilateralBroker,8,127.0.0.1] node [8] lose
+2016-09-07 06:52:24+0800 [BilateralBroker,0,127.0.0.1] node [0] lose
+2016-09-07 06:52:24+0800 [BilateralBroker,1,127.0.0.1] node [1] lose
+2016-09-07 06:52:24+0800 [BilateralBroker,6,127.0.0.1] node [6] lose
+2016-09-07 06:52:24+0800 [BilateralBroker,9,127.0.0.1] node [9] lose
+2016-09-07 06:52:24+0800 [firefly.distributed.root.BilateralFactory] (TCP Port 11812 Closed)
+2016-09-07 06:52:24+0800 [firefly.distributed.root.BilateralFactory] Stopping factory <firefly.distributed.root.BilateralFactory instance at 0x7f522a1496c8>
+2016-09-07 06:52:24+0800 [BilateralBroker,7,127.0.0.1] node [7] lose
+2016-09-07 06:52:24+0800 [BilateralBroker,2,127.0.0.1] node [2] lose
+2016-09-07 06:52:24+0800 [firefly.web.delayrequest.DelaySite] (TCP Port 33821 Closed)
+2016-09-07 06:52:24+0800 [firefly.web.delayrequest.DelaySite] Stopping factory <firefly.web.delayrequest.DelaySite instance at 0x7f522a138f38>
+2016-09-07 06:52:24+0800 [BilateralBroker,10,127.0.0.1] node [10] lose
+2016-09-07 06:52:24+0800 [-] Unhandled error in Deferred:
+2016-09-07 06:52:24+0800 [-] Unhandled Error
+	Traceback (most recent call last):
+	Failure: twisted.spread.pb.PBConnectionLost: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
+	]
+	
+2016-09-07 06:52:24+0800 [BilateralBroker,4,127.0.0.1] node [4] lose
+2016-09-07 06:52:24+0800 [-] Main loop terminated.
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7fd87f099e10>> ignored
+DELETE FROM tb_item WHERE id=123
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f054a3e6e10>> ignored
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f743c341e10>> ignored
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7fbd87060e10>> ignored
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7fc90e20fe10>> ignored
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7fe189b3fe10>> ignored
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7ff003e8fe10>> ignored
+DELETE FROM tb_item WHERE id=123
+DELETE FROM tb_item WHERE id=123
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f9a390d3e10>> ignored
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7fa069306e10>> ignored
+DELETE FROM tb_item WHERE id=123
+DELETE FROM tb_item WHERE id=123
+DELETE FROM tb_item WHERE id=123
+DELETE FROM tb_item WHERE id=123
+DELETE FROM tb_item WHERE id=123
+DELETE FROM tb_item WHERE id=123
+DELETE FROM tb_item WHERE id=123
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f6264841e10>> ignored
+DELETE FROM tb_item WHERE id=123
+2016-09-07 06:55:18+0800 [-] Log opened.
+2016-09-07 06:55:18+0800 [-] DelaySite starting on 33821
+2016-09-07 06:55:18+0800 [-] Starting factory <firefly.web.delayrequest.DelaySite instance at 0x7fcf1304e050>
+2016-09-07 06:55:18+0800 [-] BilateralFactory starting on 11812
+2016-09-07 06:55:18+0800 [-] Starting factory <firefly.distributed.root.BilateralFactory instance at 0x7fcf1304e7e8>
+2016-09-07 06:55:19+0800 [BilateralBroker,0,127.0.0.1] node [share] takeProxy ready
+2016-09-07 06:55:19+0800 [BilateralBroker,1,127.0.0.1] node [net] takeProxy ready
+2016-09-07 06:55:19+0800 [BilateralBroker,2,127.0.0.1] node [auth] takeProxy ready
+2016-09-07 06:55:20+0800 [BilateralBroker,3,127.0.0.1] node [game3] takeProxy ready
+2016-09-07 06:55:20+0800 [BilateralBroker,4,127.0.0.1] node [game5] takeProxy ready
+2016-09-07 06:55:20+0800 [BilateralBroker,5,127.0.0.1] node [game1] takeProxy ready
+2016-09-07 06:55:20+0800 [BilateralBroker,6,127.0.0.1] node [game4] takeProxy ready
+2016-09-07 06:55:20+0800 [BilateralBroker,7,127.0.0.1] node [game6] takeProxy ready
+2016-09-07 06:55:20+0800 [BilateralBroker,8,127.0.0.1] node [game8] takeProxy ready
+2016-09-07 06:55:20+0800 [BilateralBroker,9,127.0.0.1] node [game2] takeProxy ready
+2016-09-07 06:55:20+0800 [BilateralBroker,10,127.0.0.1] node [game7] takeProxy ready
+2016-09-07 06:55:20+0800 [BilateralBroker,11,127.0.0.1] node [gate] takeProxy ready
+2016-09-07 06:58:32+0800 [-] "127.0.0.1" - - [06/Sep/2016:22:58:32 +0000] "GET /stop HTTP/1.0" 200 4 "-" "Python-urllib/1.17"
+2016-09-07 06:58:33+0800 [BilateralBroker,0,127.0.0.1] node [0] lose
+2016-09-07 06:58:33+0800 [BilateralBroker,1,127.0.0.1] node [1] lose
+2016-09-07 06:58:33+0800 [BilateralBroker,7,127.0.0.1] node [7] lose
+2016-09-07 06:58:33+0800 [BilateralBroker,9,127.0.0.1] node [9] lose
+2016-09-07 06:58:33+0800 [firefly.distributed.root.BilateralFactory] (TCP Port 11812 Closed)
+2016-09-07 06:58:33+0800 [firefly.distributed.root.BilateralFactory] Stopping factory <firefly.distributed.root.BilateralFactory instance at 0x7fcf1304e7e8>
+2016-09-07 06:58:33+0800 [BilateralBroker,4,127.0.0.1] node [4] lose
+2016-09-07 06:58:33+0800 [BilateralBroker,2,127.0.0.1] node [2] lose
+2016-09-07 06:58:33+0800 [firefly.web.delayrequest.DelaySite] (TCP Port 33821 Closed)
+2016-09-07 06:58:33+0800 [firefly.web.delayrequest.DelaySite] Stopping factory <firefly.web.delayrequest.DelaySite instance at 0x7fcf1304e050>
+2016-09-07 06:58:33+0800 [BilateralBroker,3,127.0.0.1] node [3] lose
+2016-09-07 06:58:33+0800 [BilateralBroker,5,127.0.0.1] node [5] lose
+2016-09-07 06:58:33+0800 [BilateralBroker,10,127.0.0.1] node [10] lose
+2016-09-07 06:58:33+0800 [BilateralBroker,8,127.0.0.1] node [8] lose
+2016-09-07 06:58:33+0800 [BilateralBroker,11,127.0.0.1] node [11] lose
+2016-09-07 06:58:33+0800 [BilateralBroker,6,127.0.0.1] node [6] lose
+2016-09-07 06:58:33+0800 [-] Main loop terminated.
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f0f06e92e10>> ignored
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f2622360e10>> ignored
+DELETE FROM tb_item WHERE id=123
+DELETE FROM tb_item WHERE id=123
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f02d386de10>> ignored
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f9339a7ae10>> ignored
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7fda94e8ee10>> ignored
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7fcf6be52e10>> ignored
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7fd1acd22e10>> ignored
+DELETE FROM tb_item WHERE id=123
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7ff1890c7e10>> ignored
+DELETE FROM tb_item WHERE id=123
+DELETE FROM tb_item WHERE id=123
+DELETE FROM tb_item WHERE id=123
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f17708e3e10>> ignored
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f1484b73e10>> ignored
+DELETE FROM tb_item WHERE id=123
+DELETE FROM tb_item WHERE id=123
+DELETE FROM tb_item WHERE id=123
+DELETE FROM tb_item WHERE id=123
+DELETE FROM tb_item WHERE id=123
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7fc8dd17fe10>> ignored
+DELETE FROM tb_item WHERE id=123
+2016-09-07 06:59:14+0800 [-] Log opened.
+2016-09-07 06:59:14+0800 [-] DelaySite starting on 33821
+2016-09-07 06:59:14+0800 [-] Starting factory <firefly.web.delayrequest.DelaySite instance at 0x7f9425769050>
+2016-09-07 06:59:14+0800 [-] BilateralFactory starting on 11812
+2016-09-07 06:59:14+0800 [-] Starting factory <firefly.distributed.root.BilateralFactory instance at 0x7f94257697e8>
+2016-09-07 06:59:15+0800 [BilateralBroker,0,127.0.0.1] node [share] takeProxy ready
+2016-09-07 06:59:15+0800 [BilateralBroker,1,127.0.0.1] node [net] takeProxy ready
+2016-09-07 06:59:16+0800 [BilateralBroker,2,127.0.0.1] node [auth] takeProxy ready
+2016-09-07 06:59:16+0800 [BilateralBroker,3,127.0.0.1] node [game5] takeProxy ready
+2016-09-07 06:59:16+0800 [BilateralBroker,4,127.0.0.1] node [game6] takeProxy ready
+2016-09-07 06:59:16+0800 [BilateralBroker,5,127.0.0.1] node [game2] takeProxy ready
+2016-09-07 06:59:16+0800 [BilateralBroker,6,127.0.0.1] node [game1] takeProxy ready
+2016-09-07 06:59:16+0800 [BilateralBroker,7,127.0.0.1] node [game7] takeProxy ready
+2016-09-07 06:59:16+0800 [BilateralBroker,8,127.0.0.1] node [game8] takeProxy ready
+2016-09-07 06:59:16+0800 [BilateralBroker,9,127.0.0.1] node [game4] takeProxy ready
+2016-09-07 06:59:16+0800 [BilateralBroker,10,127.0.0.1] node [game3] takeProxy ready
+2016-09-07 06:59:16+0800 [BilateralBroker,11,127.0.0.1] node [gate] takeProxy ready
+2016-09-10 18:02:01+0800 [-] Received SIGTERM, shutting down.
+2016-09-10 18:02:01+0800 [BilateralBroker,11,127.0.0.1] node [11] lose
+2016-09-10 18:02:01+0800 [BilateralBroker,0,127.0.0.1] node [0] lose
+2016-09-10 18:02:01+0800 [BilateralBroker,3,127.0.0.1] node [3] lose
+2016-09-10 18:02:01+0800 [BilateralBroker,1,127.0.0.1] node [1] lose
+2016-09-10 18:02:01+0800 [BilateralBroker,7,127.0.0.1] node [7] lose
+2016-09-10 18:02:01+0800 [BilateralBroker,9,127.0.0.1] node [9] lose
+2016-09-10 18:02:01+0800 [firefly.distributed.root.BilateralFactory] (TCP Port 11812 Closed)
+2016-09-10 18:02:01+0800 [firefly.distributed.root.BilateralFactory] Stopping factory <firefly.distributed.root.BilateralFactory instance at 0x7f94257697e8>
+2016-09-10 18:02:01+0800 [firefly.web.delayrequest.DelaySite] (TCP Port 33821 Closed)
+2016-09-10 18:02:01+0800 [firefly.web.delayrequest.DelaySite] Stopping factory <firefly.web.delayrequest.DelaySite instance at 0x7f9425769050>
+2016-09-10 18:02:01+0800 [BilateralBroker,2,127.0.0.1] node [2] lose
+2016-09-10 18:02:01+0800 [BilateralBroker,10,127.0.0.1] node [10] lose
+2016-09-10 18:02:01+0800 [BilateralBroker,5,127.0.0.1] node [5] lose
+2016-09-10 18:02:01+0800 [BilateralBroker,8,127.0.0.1] node [8] lose
+2016-09-10 18:02:01+0800 [BilateralBroker,4,127.0.0.1] node [4] lose
+2016-09-10 18:02:01+0800 [BilateralBroker,6,127.0.0.1] node [6] lose
+2016-09-10 18:02:01+0800 [-] Main loop terminated.
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f469bc7be10>> ignored
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f6de0159e10>> ignored
+DELETE FROM tb_item WHERE id=123
+DELETE FROM tb_item WHERE id=123
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f23cd7e4e10>> ignored
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f0a70b74e10>> ignored
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f50d58f9e10>> ignored
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7fd552820e10>> ignored
+DELETE FROM tb_item WHERE id=123
+DELETE FROM tb_item WHERE id=123
+DELETE FROM tb_item WHERE id=123
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f1a9174ce10>> ignored
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f5155466e10>> ignored
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7fca6acbae10>> ignored
+DELETE FROM tb_item WHERE id=123
+DELETE FROM tb_item WHERE id=123
+DELETE FROM tb_item WHERE id=123
+DELETE FROM tb_item WHERE id=123
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7fe08c693e10>> ignored
+DELETE FROM tb_item WHERE id=123
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f851f20ae10>> ignored
+DELETE FROM tb_item WHERE id=123
+2016-09-12 14:03:44+0800 [-] Log opened.
+2016-09-12 14:03:44+0800 [-] Traceback (most recent call last):
+2016-09-12 14:03:44+0800 [-]   File "startmaster.py", line 16, in <module>
+2016-09-12 14:03:44+0800 [-]     master.start()
+2016-09-12 14:03:44+0800 [-]   File "/home/dev/work/official/master.py", line 82, in start
+2016-09-12 14:03:44+0800 [-]     self.masterapp()
+2016-09-12 14:03:44+0800 [-]   File "/home/dev/work/official/master.py", line 64, in masterapp
+2016-09-12 14:03:44+0800 [-]     reactor.listenTCP(webport, DelaySite(self.webroot), interface='127.0.0.1')
+2016-09-12 14:03:44+0800 [-]   File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/internet/posixbase.py", line 492, in listenTCP
+2016-09-12 14:03:44+0800 [-]     p.startListening()
+2016-09-12 14:03:44+0800 [-]   File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/internet/tcp.py", line 984, in startListening
+2016-09-12 14:03:44+0800 [-]     raise CannotListenError(self.interface, self.port, le)
+2016-09-12 14:03:44+0800 [-] twisted.internet.error.CannotListenError: Couldn't listen on 127.0.0.1:33821: [Errno 98] Address already in use.
+2016-09-12 14:04:32+0800 [-] Log opened.
+2016-09-12 14:04:32+0800 [-] DelaySite starting on 33821
+2016-09-12 14:04:32+0800 [-] Starting factory <firefly.web.delayrequest.DelaySite instance at 0x7f3d4f8c3050>
+2016-09-12 14:04:32+0800 [-] BilateralFactory starting on 11812
+2016-09-12 14:04:32+0800 [-] Starting factory <firefly.distributed.root.BilateralFactory instance at 0x7f3d4f8c37e8>
+DELETE FROM tb_item WHERE id=123
+Traceback (most recent call last):
+  File "appmain.py", line 131, in <module>
+    ser.config(serconfig, servername=server_name, dbconfig=dbconf, memconfig=memconf, masterconf=masterconf)
+  File "appmain.py", line 63, in config
+    reactor.listenTCP(webport, DelaySite(self.webroot))
+  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/internet/posixbase.py", line 492, in listenTCP
+    p.startListening()
+  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/internet/tcp.py", line 984, in startListening
+    raise CannotListenError(self.interface, self.port, le)
+twisted.internet.error.CannotListenError: Couldn't listen on any:33861: [Errno 98] Address already in use.
+2016-09-12 14:04:32+0800 [BilateralBroker,0,127.0.0.1] node [net] takeProxy ready
+2016-09-12 14:04:32+0800 [BilateralBroker,1,127.0.0.1] node [share] takeProxy ready
+2016-09-12 14:04:33+0800 [BilateralBroker,2,127.0.0.1] node [auth] takeProxy ready
+2016-09-12 14:04:33+0800 [BilateralBroker,3,127.0.0.1] node [game1] takeProxy ready
+2016-09-12 14:04:33+0800 [BilateralBroker,5,127.0.0.1] node [game5] takeProxy ready
+2016-09-12 14:04:33+0800 [BilateralBroker,4,127.0.0.1] node [game6] takeProxy ready
+2016-09-12 14:04:33+0800 [BilateralBroker,6,127.0.0.1] node [game8] takeProxy ready
+2016-09-12 14:04:33+0800 [BilateralBroker,7,127.0.0.1] node [game2] takeProxy ready
+2016-09-12 14:04:33+0800 [BilateralBroker,8,127.0.0.1] node [game4] takeProxy ready
+2016-09-12 14:04:33+0800 [BilateralBroker,9,127.0.0.1] node [game3] takeProxy ready
+2016-09-12 14:04:33+0800 [BilateralBroker,10,127.0.0.1] node [game7] takeProxy ready
+2016-09-12 14:05:48+0800 [-] "127.0.0.1" - - [12/Sep/2016:06:05:47 +0000] "GET /stop HTTP/1.0" 200 4 "-" "Python-urllib/1.17"
+2016-09-12 14:05:48+0800 [BilateralBroker,8,127.0.0.1] node [8] lose
+2016-09-12 14:05:48+0800 [BilateralBroker,4,127.0.0.1] node [4] lose
+2016-09-12 14:05:48+0800 [firefly.web.delayrequest.DelaySite] (TCP Port 33821 Closed)
+2016-09-12 14:05:48+0800 [firefly.web.delayrequest.DelaySite] Stopping factory <firefly.web.delayrequest.DelaySite instance at 0x7f3d4f8c3050>
+2016-09-12 14:05:48+0800 [BilateralBroker,3,127.0.0.1] node [3] lose
+2016-09-12 14:05:48+0800 [BilateralBroker,9,127.0.0.1] node [9] lose
+2016-09-12 14:05:48+0800 [BilateralBroker,2,127.0.0.1] node [2] lose
+2016-09-12 14:05:48+0800 [BilateralBroker,6,127.0.0.1] node [6] lose
+2016-09-12 14:05:48+0800 [firefly.distributed.root.BilateralFactory] (TCP Port 11812 Closed)
+2016-09-12 14:05:48+0800 [firefly.distributed.root.BilateralFactory] Stopping factory <firefly.distributed.root.BilateralFactory instance at 0x7f3d4f8c37e8>
+2016-09-12 14:05:48+0800 [BilateralBroker,0,127.0.0.1] node [0] lose
+2016-09-12 14:05:48+0800 [BilateralBroker,1,127.0.0.1] node [1] lose
+2016-09-12 14:05:48+0800 [BilateralBroker,7,127.0.0.1] node [7] lose
+2016-09-12 14:05:48+0800 [BilateralBroker,5,127.0.0.1] node [5] lose
+2016-09-12 14:05:48+0800 [BilateralBroker,10,127.0.0.1] node [10] lose
+2016-09-12 14:05:48+0800 [-] Main loop terminated.
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f7af211ce10>> ignored
+DELETE FROM tb_item WHERE id=123
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f2a5bf0ae10>> ignored
+Exception TypeError: "'NoneType' object is not callable" in Exception <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f130f52be10>> ignored
+TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f951323fe10>> ignored
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7faf635a4e10>> ignored
+DELETE FROM tb_item WHERE id=123
+DELETE FROM tb_item WHERE id=123
+DELETE FROM tb_item WHERE id=123
+Exception TypeError: "'NoneType' object is not caException llaTypeErrorb: le"" in 'None<bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f568b1b3e10>>T ignored
+ype' object iDELETE FROM tb_item WHERE id=123
+s not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7fa26a19ce10>> ignored
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7fd0d1c00e10>> ignored
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f2095e18e10>> ignored
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7fd059870e10>> ignored
+DELETE FROM tb_item WHERE id=123
+DELETE FROM tb_item WHERE id=123
+DELETE FROM tb_item WHERE id=123
+DELETE FROM tb_item WHERE id=123
+DELETE FROM tb_item WHERE id=123
+DELETE FROM tb_item WHERE id=123
+2016-09-12 14:08:15+0800 [-] Log opened.
+2016-09-12 14:08:15+0800 [-] DelaySite starting on 33821
+2016-09-12 14:08:15+0800 [-] Starting factory <firefly.web.delayrequest.DelaySite instance at 0x7f7596baf050>
+2016-09-12 14:08:15+0800 [-] BilateralFactory starting on 11812
+2016-09-12 14:08:15+0800 [-] Starting factory <firefly.distributed.root.BilateralFactory instance at 0x7f7596baf7e8>
+2016-09-12 14:08:15+0800 [BilateralBroker,0,127.0.0.1] node [share] takeProxy ready
+2016-09-12 14:08:15+0800 [BilateralBroker,1,127.0.0.1] node [net] takeProxy ready
+2016-09-12 14:08:15+0800 [BilateralBroker,2,127.0.0.1] node [auth] takeProxy ready
+2016-09-12 14:08:15+0800 [BilateralBroker,3,127.0.0.1] node [game3] takeProxy ready
+2016-09-12 14:08:15+0800 [BilateralBroker,4,127.0.0.1] node [game4] takeProxy ready
+2016-09-12 14:08:15+0800 [BilateralBroker,5,127.0.0.1] node [game6] takeProxy ready
+2016-09-12 14:08:15+0800 [BilateralBroker,6,127.0.0.1] node [game2] takeProxy ready
+2016-09-12 14:08:15+0800 [BilateralBroker,7,127.0.0.1] node [game5] takeProxy ready
+2016-09-12 14:08:15+0800 [BilateralBroker,8,127.0.0.1] node [game1] takeProxy ready
+2016-09-12 14:08:15+0800 [BilateralBroker,9,127.0.0.1] node [game7] takeProxy ready
+2016-09-12 14:08:15+0800 [BilateralBroker,10,127.0.0.1] node [game8] takeProxy ready
+2016-09-12 14:08:15+0800 [BilateralBroker,11,127.0.0.1] node [gate] takeProxy ready
+2016-09-12 20:58:14+0800 [-] "127.0.0.1" - - [12/Sep/2016:12:58:14 +0000] "GET /stop HTTP/1.0" 200 4 "-" "Python-urllib/1.17"
+2016-09-12 20:58:14+0800 [-] Unhandled error in Deferred:
+2016-09-12 20:58:14+0800 [-] Unhandled Error
+	Traceback from remote host -- Traceback unavailable
+	exceptions.UnicodeDecodeError: 'ascii' codec can't decode byte 0xe0 in position 2538: ordinal not in range(128)
+	
+2016-09-12 20:58:15+0800 [BilateralBroker,1,127.0.0.1] node [1] lose
+2016-09-12 20:58:15+0800 [BilateralBroker,9,127.0.0.1] node [9] lose
+2016-09-12 20:58:15+0800 [BilateralBroker,6,127.0.0.1] node [6] lose
+2016-09-12 20:58:15+0800 [BilateralBroker,4,127.0.0.1] node [4] lose
+2016-09-12 20:58:15+0800 [BilateralBroker,2,127.0.0.1] node [2] lose
+2016-09-12 20:58:15+0800 [BilateralBroker,5,127.0.0.1] node [5] lose
+2016-09-12 20:58:15+0800 [BilateralBroker,7,127.0.0.1] node [7] lose
+2016-09-12 20:58:15+0800 [BilateralBroker,10,127.0.0.1] node [10] lose
+2016-09-12 20:58:15+0800 [BilateralBroker,3,127.0.0.1] node [3] lose
+2016-09-12 20:58:15+0800 [firefly.web.delayrequest.DelaySite] (TCP Port 33821 Closed)
+2016-09-12 20:58:15+0800 [firefly.web.delayrequest.DelaySite] Stopping factory <firefly.web.delayrequest.DelaySite instance at 0x7f7596baf050>
+2016-09-12 20:58:15+0800 [BilateralBroker,11,127.0.0.1] node [11] lose
+2016-09-12 20:58:15+0800 [-] Unhandled error in Deferred:
+2016-09-12 20:58:15+0800 [-] Unhandled Error
+	Traceback (most recent call last):
+	Failure: twisted.spread.pb.PBConnectionLost: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
+	]
+	
+2016-09-12 20:58:15+0800 [BilateralBroker,0,127.0.0.1] node [0] lose
+2016-09-12 20:58:15+0800 [firefly.distributed.root.BilateralFactory] (TCP Port 11812 Closed)
+2016-09-12 20:58:15+0800 [firefly.distributed.root.BilateralFactory] Stopping factory <firefly.distributed.root.BilateralFactory instance at 0x7f7596baf7e8>
+2016-09-12 20:58:15+0800 [BilateralBroker,8,127.0.0.1] node [8] lose
+2016-09-12 20:58:15+0800 [-] Main loop terminated.
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f54c1cf0e10>> ignored
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f0138cd0e10>> ignored
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f283a617e10>> ignored
+Exception TypeError: "'NoneType' objectException  is not callabTypeErrorle" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f6003023e10>> ignored
+: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f9fbef61e10>> ignored
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f9e0720ae10>> ignored
+DELETE FROM tb_item WHERE id=123
+DELETE FROM tb_item WHERE id=123
+DELETE FROM tb_item WHERE id=123
+DELETE FROM tb_item WHERE id=123
+DELETE FROM tb_item WHERE id=123
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f98edceee10>> ignored
+DELETE FROM tb_item WHERE id=123
+DELETE FROM tb_item WHERE id=123
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f030b1f8e10>> ignored
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7fa72fed4e10>> ignored
+DELETE FROM tb_item WHERE id=123
+DELETE FROM tb_item WHERE id=123
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7fbd3b19ee10>> ignored
+DELETE FROM tb_item WHERE id=123
+2016-09-12 21:30:17+0800 [-] Log opened.
+2016-09-12 21:30:17+0800 [-] DelaySite starting on 33821
+2016-09-12 21:30:17+0800 [-] Starting factory <firefly.web.delayrequest.DelaySite instance at 0x7f93dc72a050>
+2016-09-12 21:30:17+0800 [-] BilateralFactory starting on 11812
+2016-09-12 21:30:17+0800 [-] Starting factory <firefly.distributed.root.BilateralFactory instance at 0x7f93dc72a7e8>
+2016-09-12 21:30:18+0800 [BilateralBroker,0,127.0.0.1] node [net] takeProxy ready
+2016-09-12 21:30:18+0800 [BilateralBroker,1,127.0.0.1] node [share] takeProxy ready
+2016-09-12 21:30:18+0800 [BilateralBroker,2,127.0.0.1] node [auth] takeProxy ready
+2016-09-12 21:30:18+0800 [BilateralBroker,3,127.0.0.1] node [game3] takeProxy ready
+2016-09-12 21:30:18+0800 [BilateralBroker,4,127.0.0.1] node [game1] takeProxy ready
+2016-09-12 21:30:18+0800 [BilateralBroker,7,127.0.0.1] node [game6] takeProxy ready
+2016-09-12 21:30:18+0800 [BilateralBroker,5,127.0.0.1] node [game2] takeProxy ready
+2016-09-12 21:30:18+0800 [BilateralBroker,6,127.0.0.1] node [game5] takeProxy ready
+2016-09-12 21:30:18+0800 [BilateralBroker,10,127.0.0.1] node [game8] takeProxy ready
+2016-09-12 21:30:18+0800 [BilateralBroker,9,127.0.0.1] node [game7] takeProxy ready
+2016-09-12 21:30:18+0800 [BilateralBroker,8,127.0.0.1] node [game4] takeProxy ready
+2016-09-12 21:30:18+0800 [BilateralBroker,11,127.0.0.1] node [gate] takeProxy ready
+2016-09-12 21:30:46+0800 [-] "127.0.0.1" - - [12/Sep/2016:13:30:45 +0000] "GET /stop HTTP/1.0" 200 4 "-" "Python-urllib/1.17"
+2016-09-12 21:30:46+0800 [BilateralBroker,4,127.0.0.1] node [4] lose
+2016-09-12 21:30:46+0800 [firefly.web.delayrequest.DelaySite] (TCP Port 33821 Closed)
+2016-09-12 21:30:46+0800 [firefly.web.delayrequest.DelaySite] Stopping factory <firefly.web.delayrequest.DelaySite instance at 0x7f93dc72a050>
+2016-09-12 21:30:46+0800 [BilateralBroker,1,127.0.0.1] node [1] lose
+2016-09-12 21:30:46+0800 [BilateralBroker,3,127.0.0.1] node [3] lose
+2016-09-12 21:30:46+0800 [BilateralBroker,5,127.0.0.1] node [5] lose
+2016-09-12 21:30:46+0800 [BilateralBroker,7,127.0.0.1] node [7] lose
+2016-09-12 21:30:46+0800 [BilateralBroker,2,127.0.0.1] node [2] lose
+2016-09-12 21:30:46+0800 [BilateralBroker,8,127.0.0.1] node [8] lose
+2016-09-12 21:30:46+0800 [BilateralBroker,10,127.0.0.1] node [10] lose
+2016-09-12 21:30:46+0800 [firefly.distributed.root.BilateralFactory] (TCP Port 11812 Closed)
+2016-09-12 21:30:46+0800 [firefly.distributed.root.BilateralFactory] Stopping factory <firefly.distributed.root.BilateralFactory instance at 0x7f93dc72a7e8>
+2016-09-12 21:30:46+0800 [BilateralBroker,11,127.0.0.1] node [11] lose
+DELETE FROM tb_item WHERE id=123
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f5cbcfbde10>> ignored
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f89083a8e10>> ignored
+2016-09-12 21:30:46+0800 [BilateralBroker,0,127.0.0.1] node [0] lose
+2016-09-12 21:30:46+0800 [BilateralBroker,9,127.0.0.1] node [9] lose
+2016-09-12 21:30:46+0800 [BilateralBroker,6,127.0.0.1] node [6] lose
+DELETE FROM tb_item WHERE id=123
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f4175072e10>> ignored
+DELETE FROM tb_item WHERE id=123
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f5448ac9e10>> ignored
+DELETE FROM tb_item WHERE id=123
+2016-09-12 21:30:46+0800 [-] Main loop terminated.
+DELETE FROM tb_item WHERE id=123
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7fa61eb4de10>> ignored
+DELETE FROM tb_item WHERE id=123
+Exception TypeError: "'NonException TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f07c3642e10>> ignored
+eType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7ffa7e869e10>> ignored
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7fc431b6be10>> ignored
+DELETE FROM tb_item WHERE id=123
+DELETE FROM tb_item WHERE id=123
+DELETE FROM tb_item WHERE id=123
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7fa5cb141e10>> ignored
+DELETE FROM tb_item WHERE id=123
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f357d91fe10>> ignored
+DELETE FROM tb_item WHERE id=123
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f98bb44fe10>> ignored
+DELETE FROM tb_item WHERE id=123
+2016-09-12 21:32:02+0800 [-] Log opened.
+2016-09-12 21:32:02+0800 [-] DelaySite starting on 33821
+2016-09-12 21:32:02+0800 [-] Starting factory <firefly.web.delayrequest.DelaySite instance at 0x7ff36a376050>
+2016-09-12 21:32:02+0800 [-] BilateralFactory starting on 11812
+2016-09-12 21:32:02+0800 [-] Starting factory <firefly.distributed.root.BilateralFactory instance at 0x7ff36a3767e8>
+2016-09-12 21:32:02+0800 [BilateralBroker,0,127.0.0.1] node [share] takeProxy ready
+2016-09-12 21:32:02+0800 [BilateralBroker,1,127.0.0.1] node [net] takeProxy ready
+2016-09-12 21:32:02+0800 [BilateralBroker,2,127.0.0.1] node [auth] takeProxy ready
+2016-09-12 21:32:02+0800 [BilateralBroker,3,127.0.0.1] node [game3] takeProxy ready
+2016-09-12 21:32:02+0800 [BilateralBroker,4,127.0.0.1] node [game5] takeProxy ready
+2016-09-12 21:32:02+0800 [BilateralBroker,5,127.0.0.1] node [game2] takeProxy ready
+2016-09-12 21:32:02+0800 [BilateralBroker,6,127.0.0.1] node [game7] takeProxy ready
+2016-09-12 21:32:02+0800 [BilateralBroker,7,127.0.0.1] node [game1] takeProxy ready
+2016-09-12 21:32:02+0800 [BilateralBroker,8,127.0.0.1] node [game6] takeProxy ready
+2016-09-12 21:32:02+0800 [BilateralBroker,9,127.0.0.1] node [game8] takeProxy ready
+2016-09-12 21:32:02+0800 [BilateralBroker,10,127.0.0.1] node [gate] takeProxy ready
+2016-09-12 21:32:02+0800 [BilateralBroker,11,127.0.0.1] node [game4] takeProxy ready
+2016-09-18 06:51:05+0800 [-] "127.0.0.1" - - [17/Sep/2016:22:51:04 +0000] "GET /stop HTTP/1.0" 200 4 "-" "Python-urllib/1.17"
+2016-09-18 06:51:05+0800 [-] Unhandled error in Deferred:
+2016-09-18 06:51:05+0800 [-] Unhandled Error
+	Traceback from remote host -- Traceback unavailable
+	exceptions.UnicodeDecodeError: 'ascii' codec can't decode byte 0xb0 in position 1137: ordinal not in range(128)
+	
+2016-09-18 06:51:05+0800 [BilateralBroker,1,127.0.0.1] node [1] lose
+2016-09-18 06:51:05+0800 [BilateralBroker,9,127.0.0.1] node [9] lose
+2016-09-18 06:51:05+0800 [BilateralBroker,6,127.0.0.1] node [6] lose
+2016-09-18 06:51:05+0800 [BilateralBroker,7,127.0.0.1] node [7] lose
+2016-09-18 06:51:05+0800 [BilateralBroker,2,127.0.0.1] node [2] lose
+2016-09-18 06:51:05+0800 [firefly.distributed.root.BilateralFactory] (TCP Port 11812 Closed)
+2016-09-18 06:51:05+0800 [firefly.distributed.root.BilateralFactory] Stopping factory <firefly.distributed.root.BilateralFactory instance at 0x7ff36a3767e8>
+2016-09-18 06:51:05+0800 [BilateralBroker,11,127.0.0.1] node [11] lose
+2016-09-18 06:51:05+0800 [BilateralBroker,10,127.0.0.1] node [10] lose
+2016-09-18 06:51:05+0800 [-] Unhandled error in Deferred:
+2016-09-18 06:51:05+0800 [-] Unhandled Error
+	Traceback (most recent call last):
+	Failure: twisted.spread.pb.PBConnectionLost: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
+	]
+	
+2016-09-18 06:51:05+0800 [BilateralBroker,5,127.0.0.1] node [5] lose
+2016-09-18 06:51:05+0800 [BilateralBroker,4,127.0.0.1] node [4] lose
+2016-09-18 06:51:05+0800 [firefly.web.delayrequest.DelaySite] (TCP Port 33821 Closed)
+2016-09-18 06:51:05+0800 [firefly.web.delayrequest.DelaySite] Stopping factory <firefly.web.delayrequest.DelaySite instance at 0x7ff36a376050>
+2016-09-18 06:51:05+0800 [BilateralBroker,8,127.0.0.1] node [8] lose
+2016-09-18 06:51:05+0800 [BilateralBroker,0,127.0.0.1] node [0] lose
+2016-09-18 06:51:05+0800 [BilateralBroker,3,127.0.0.1] node [3] lose
+2016-09-18 06:51:05+0800 [-] Main loop terminated.
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f66219ffe10>> ignored
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f178c161e10>> ignored
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f1bca7f9e10>> ignored
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f2f5f78be10>> ignored
+DELETE FROM tb_item WHERE id=123
+DELETE FROM tb_item WHERE id=123
+DELETE FROM tb_item WHERE id=123
+Exception Exception TypeErrorTypeError: : ""''NNoonneeTTyyppee''  oobbjjeecctt  iiss  nnoott  ccaallllaabbllee"" in  in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f25fb4b3e10>><bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7fa28af92e10>> ignored
+ ignored
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7fa56488ae10>> ignored
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f864ed0de10>> ignored
+DELETE FROM tb_item WHERE id=123
+DELETE FROM tb_item WHERE id=123
+DELETE FROM tb_item WHERE id=123
+DELETE FROM tb_item WHERE id=123
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7fb591971e10>> ignored
+DELETE FROM tb_item WHERE id=123
+DELETE FROM tb_item WHERE id=123
+DELETE FROM tb_item WHERE id=123
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f20d1372e10>> ignored
+DELETE FROM tb_item WHERE id=123
+2016-09-18 06:52:53+0800 [-] Log opened.
+2016-09-18 06:52:53+0800 [-] DelaySite starting on 33821
+2016-09-18 06:52:53+0800 [-] Starting factory <firefly.web.delayrequest.DelaySite instance at 0x7f3152f4f0e0>
+2016-09-18 06:52:53+0800 [-] BilateralFactory starting on 11812
+2016-09-18 06:52:53+0800 [-] Starting factory <firefly.distributed.root.BilateralFactory instance at 0x7f3152f4f878>
+2016-09-18 06:52:53+0800 [BilateralBroker,0,127.0.0.1] node [share] takeProxy ready
+2016-09-18 06:52:53+0800 [BilateralBroker,1,127.0.0.1] node [net] takeProxy ready
+2016-09-18 06:52:53+0800 [BilateralBroker,2,127.0.0.1] node [auth] takeProxy ready
+2016-09-18 06:52:53+0800 [BilateralBroker,3,127.0.0.1] node [game4] takeProxy ready
+2016-09-18 06:52:53+0800 [BilateralBroker,4,127.0.0.1] node [game2] takeProxy ready
+2016-09-18 06:52:53+0800 [BilateralBroker,5,127.0.0.1] node [game6] takeProxy ready
+2016-09-18 06:52:53+0800 [BilateralBroker,6,127.0.0.1] node [game3] takeProxy ready
+2016-09-18 06:52:53+0800 [BilateralBroker,7,127.0.0.1] node [game7] takeProxy ready
+2016-09-18 06:52:53+0800 [BilateralBroker,8,127.0.0.1] node [game5] takeProxy ready
+2016-09-18 06:52:53+0800 [BilateralBroker,9,127.0.0.1] node [game8] takeProxy ready
+2016-09-18 06:52:53+0800 [BilateralBroker,10,127.0.0.1] node [game1] takeProxy ready
+2016-09-18 06:52:54+0800 [BilateralBroker,11,127.0.0.1] node [gate] takeProxy ready
+2016-09-18 06:56:30+0800 [-] "127.0.0.1" - - [17/Sep/2016:22:56:29 +0000] "GET /stop HTTP/1.0" 200 4 "-" "Python-urllib/1.17"
+2016-09-18 06:56:30+0800 [BilateralBroker,9,127.0.0.1] node [9] lose
+2016-09-18 06:56:30+0800 [BilateralBroker,7,127.0.0.1] node [7] lose
+2016-09-18 06:56:30+0800 [BilateralBroker,4,127.0.0.1] node [4] lose
+2016-09-18 06:56:30+0800 [BilateralBroker,11,127.0.0.1] node [11] lose
+2016-09-18 06:56:30+0800 [BilateralBroker,2,127.0.0.1] node [2] lose
+2016-09-18 06:56:30+0800 [BilateralBroker,6,127.0.0.1] node [6] lose
+2016-09-18 06:56:30+0800 [BilateralBroker,3,127.0.0.1] node [3] lose
+2016-09-18 06:56:30+0800 [BilateralBroker,10,127.0.0.1] node [10] lose
+2016-09-18 06:56:30+0800 [BilateralBroker,5,127.0.0.1] node [5] lose
+2016-09-18 06:56:30+0800 [BilateralBroker,8,127.0.0.1] node [8] lose
+2016-09-18 06:56:30+0800 [firefly.web.delayrequest.DelaySite] (TCP Port 33821 Closed)
+2016-09-18 06:56:30+0800 [firefly.web.delayrequest.DelaySite] Stopping factory <firefly.web.delayrequest.DelaySite instance at 0x7f3152f4f0e0>
+2016-09-18 06:56:30+0800 [BilateralBroker,0,127.0.0.1] node [0] lose
+2016-09-18 06:56:30+0800 [BilateralBroker,1,127.0.0.1] node [1] lose
+2016-09-18 06:56:30+0800 [firefly.distributed.root.BilateralFactory] (TCP Port 11812 Closed)
+2016-09-18 06:56:30+0800 [firefly.distributed.root.BilateralFactory] Stopping factory <firefly.distributed.root.BilateralFactory instance at 0x7f3152f4f878>
+2016-09-18 06:56:30+0800 [-] Main loop terminated.
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7fe66a3ace50>> ignored
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f6b320e2e50>> ignored
+DELETE FROM tb_item WHERE id=123
+DELETE FROM tb_item WHERE id=123
+Exception Exception TypeError: TypeError: "'NoneTy"'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f05559e7e50>> ignored
+pe' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f66d8265e50>> ignored
+Exception DELETE FROM tb_item WHERE id=123
+TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7fb196818e50>> ignored
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f2c882c4e50>> ignored
+DELETE FROM tb_item WHERE id=123
+DELETE FROM tb_item WHERE id=123
+DELETE FROM tb_item WHERE id=123
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f553af62e50>> ignored
+Exception TypeError: "'NoneType' object is not callableDELETE FROM tb_item WHERE id=123
+" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7fe7d78c5e50>> ignored
+DELETE FROM tb_item WHERE id=123
+DELETE FROM tb_item WHERE id=123
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f8b33b1de50>> ignored
+DELETE FROM tb_item WHERE id=123
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f2197000e50>> ignored
+DELETE FROM tb_item WHERE id=123
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7fe093408e50>> ignored
+DELETE FROM tb_item WHERE id=123
+2016-09-18 06:58:34+0800 [-] Log opened.
+2016-09-18 06:58:34+0800 [-] DelaySite starting on 33821
+2016-09-18 06:58:34+0800 [-] Starting factory <firefly.web.delayrequest.DelaySite instance at 0x7f602809c098>
+2016-09-18 06:58:34+0800 [-] BilateralFactory starting on 11812
+2016-09-18 06:58:34+0800 [-] Starting factory <firefly.distributed.root.BilateralFactory instance at 0x7f602809c830>
+2016-09-18 06:58:34+0800 [BilateralBroker,0,127.0.0.1] node [share] takeProxy ready
+2016-09-18 06:58:34+0800 [BilateralBroker,1,127.0.0.1] node [net] takeProxy ready
+2016-09-18 06:58:34+0800 [BilateralBroker,2,127.0.0.1] node [game5] takeProxy ready
+2016-09-18 06:58:34+0800 [BilateralBroker,3,127.0.0.1] node [auth] takeProxy ready
+2016-09-18 06:58:34+0800 [BilateralBroker,4,127.0.0.1] node [game7] takeProxy ready
+2016-09-18 06:58:34+0800 [BilateralBroker,5,127.0.0.1] node [game6] takeProxy ready
+2016-09-18 06:58:34+0800 [BilateralBroker,6,127.0.0.1] node [game1] takeProxy ready
+2016-09-18 06:58:34+0800 [BilateralBroker,7,127.0.0.1] node [game4] takeProxy ready
+2016-09-18 06:58:34+0800 [BilateralBroker,8,127.0.0.1] node [game8] takeProxy ready
+2016-09-18 06:58:34+0800 [BilateralBroker,9,127.0.0.1] node [game3] takeProxy ready
+2016-09-18 06:58:34+0800 [BilateralBroker,10,127.0.0.1] node [game2] takeProxy ready
+2016-09-18 06:58:34+0800 [BilateralBroker,11,127.0.0.1] node [gate] takeProxy ready
+2016-09-24 05:57:59+0800 [-] "127.0.0.1" - - [23/Sep/2016:21:57:59 +0000] "GET /stop HTTP/1.0" 200 4 "-" "Python-urllib/1.17"
+2016-09-24 05:57:59+0800 [BilateralBroker,3,127.0.0.1] node [3] lose
+2016-09-24 05:57:59+0800 [BilateralBroker,1,127.0.0.1] node [1] lose
+2016-09-24 05:57:59+0800 [BilateralBroker,9,127.0.0.1] node [9] lose
+2016-09-24 05:57:59+0800 [BilateralBroker,6,127.0.0.1] node [6] lose
+2016-09-24 05:57:59+0800 [BilateralBroker,11,127.0.0.1] node [11] lose
+2016-09-24 05:57:59+0800 [-] Unhandled error in Deferred:
+2016-09-24 05:57:59+0800 [-] Unhandled Error
+	Traceback (most recent call last):
+	Failure: twisted.spread.pb.PBConnectionLost: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
+	]
+	
+2016-09-24 05:57:59+0800 [firefly.web.delayrequest.DelaySite] (TCP Port 33821 Closed)
+2016-09-24 05:57:59+0800 [firefly.web.delayrequest.DelaySite] Stopping factory <firefly.web.delayrequest.DelaySite instance at 0x7f602809c098>
+2016-09-24 05:57:59+0800 [BilateralBroker,7,127.0.0.1] node [7] lose
+2016-09-24 05:57:59+0800 [BilateralBroker,2,127.0.0.1] node [2] lose
+2016-09-24 05:57:59+0800 [BilateralBroker,10,127.0.0.1] node [10] lose
+2016-09-24 05:57:59+0800 [BilateralBroker,8,127.0.0.1] node [8] lose
+2016-09-24 05:57:59+0800 [BilateralBroker,5,127.0.0.1] node [5] lose
+2016-09-24 05:57:59+0800 [firefly.distributed.root.BilateralFactory] (TCP Port 11812 Closed)
+2016-09-24 05:57:59+0800 [firefly.distributed.root.BilateralFactory] Stopping factory <firefly.distributed.root.BilateralFactory instance at 0x7f602809c830>
+2016-09-24 05:57:59+0800 [BilateralBroker,4,127.0.0.1] node [4] lose
+2016-09-24 05:57:59+0800 [-] Unhandled error in Deferred:
+2016-09-24 05:57:59+0800 [-] Unhandled Error
+	Traceback (most recent call last):
+	Failure: twisted.spread.pb.PBConnectionLost: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
+	]
+	
+2016-09-24 05:57:59+0800 [BilateralBroker,0,127.0.0.1] node [0] lose
+2016-09-24 05:57:59+0800 [-] Main loop terminated.
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f50f1cf7e50>> ignored
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7fb3c1de5e50>> ignored
+DELETE FROM tb_item WHERE id=123
+DELETE FROM tb_item WHERE id=123
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7fda52399e50>> ignored
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f303f07de50>> ignored
+DELETE FROM tb_item WHERE id=123
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f17dac43e50>> ignored
+Exception TypeErrorDELETE FROM tb_item WHERE id=123
+: Exception "'TypeErrorN: oneTy"p'eN'o noebTjyepcet'  iosb jneoctt  ciasl lnot caalblle" in abl<bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7ff4f2958e50>>e ignored
+" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f2784b97e50>> ignored
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7fae5655de50>> ignored
+DELETE FROM tb_item WHERE id=123
+DELETE FROM tb_item WHERE id=123
+DELETE FROM tb_item WHERE id=123
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7fc1c430fe50>> ignored
+DELETE FROM tb_item WHERE id=123
+DELETE FROM tb_item WHERE id=123
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7fef2137be50>> ignored
+DELETE FROM tb_item WHERE id=123
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f4065f34e50>> ignored
+DELETE FROM tb_item WHERE id=123
+2016-09-24 06:01:35+0800 [-] Log opened.
+2016-09-24 06:01:35+0800 [-] DelaySite starting on 33821
+2016-09-24 06:01:35+0800 [-] Starting factory <firefly.web.delayrequest.DelaySite instance at 0x7f1e6c9fa098>
+2016-09-24 06:01:35+0800 [-] BilateralFactory starting on 11812
+2016-09-24 06:01:35+0800 [-] Starting factory <firefly.distributed.root.BilateralFactory instance at 0x7f1e6c9fa830>
+2016-09-24 06:01:35+0800 [BilateralBroker,0,127.0.0.1] node [net] takeProxy ready
+2016-09-24 06:01:36+0800 [BilateralBroker,1,127.0.0.1] node [share] takeProxy ready
+2016-09-24 06:01:36+0800 [BilateralBroker,2,127.0.0.1] node [auth] takeProxy ready
+2016-09-24 06:01:36+0800 [BilateralBroker,3,127.0.0.1] node [game1] takeProxy ready
+2016-09-24 06:01:36+0800 [BilateralBroker,4,127.0.0.1] node [game5] takeProxy ready
+2016-09-24 06:01:36+0800 [BilateralBroker,5,127.0.0.1] node [game7] takeProxy ready
+2016-09-24 06:01:36+0800 [BilateralBroker,6,127.0.0.1] node [game2] takeProxy ready
+2016-09-24 06:01:36+0800 [BilateralBroker,8,127.0.0.1] node [game8] takeProxy ready
+2016-09-24 06:01:36+0800 [BilateralBroker,7,127.0.0.1] node [game3] takeProxy ready
+2016-09-24 06:01:36+0800 [BilateralBroker,10,127.0.0.1] node [game4] takeProxy ready
+2016-09-24 06:01:36+0800 [BilateralBroker,9,127.0.0.1] node [game6] takeProxy ready
+2016-09-24 06:01:36+0800 [BilateralBroker,11,127.0.0.1] node [gate] takeProxy ready
+2016-09-29 06:53:12+0800 [-] "127.0.0.1" - - [28/Sep/2016:22:53:12 +0000] "GET /stop HTTP/1.0" 200 4 "-" "Python-urllib/1.17"
+2016-09-29 06:53:13+0800 [BilateralBroker,10,127.0.0.1] node [10] lose
+2016-09-29 06:53:13+0800 [BilateralBroker,7,127.0.0.1] node [7] lose
+2016-09-29 06:53:13+0800 [BilateralBroker,8,127.0.0.1] node [8] lose
+2016-09-29 06:53:13+0800 [firefly.distributed.root.BilateralFactory] (TCP Port 11812 Closed)
+2016-09-29 06:53:13+0800 [firefly.distributed.root.BilateralFactory] Stopping factory <firefly.distributed.root.BilateralFactory instance at 0x7f1e6c9fa830>
+2016-09-29 06:53:13+0800 [BilateralBroker,3,127.0.0.1] node [3] lose
+2016-09-29 06:53:13+0800 [BilateralBroker,5,127.0.0.1] node [5] lose
+2016-09-29 06:53:13+0800 [-] Unhandled error in Deferred:
+2016-09-29 06:53:13+0800 [-] Unhandled Error
+	Traceback (most recent call last):
+	Failure: twisted.spread.pb.PBConnectionLost: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
+	]
+	
+2016-09-29 06:53:13+0800 [BilateralBroker,2,127.0.0.1] node [2] lose
+2016-09-29 06:53:13+0800 [BilateralBroker,6,127.0.0.1] node [6] lose
+2016-09-29 06:53:13+0800 [BilateralBroker,0,127.0.0.1] node [0] lose
+2016-09-29 06:53:13+0800 [firefly.web.delayrequest.DelaySite] (TCP Port 33821 Closed)
+2016-09-29 06:53:13+0800 [firefly.web.delayrequest.DelaySite] Stopping factory <firefly.web.delayrequest.DelaySite instance at 0x7f1e6c9fa098>
+2016-09-29 06:53:13+0800 [BilateralBroker,11,127.0.0.1] node [11] lose
+2016-09-29 06:53:13+0800 [-] Unhandled error in Deferred:
+2016-09-29 06:53:13+0800 [-] Unhandled Error
+	Traceback (most recent call last):
+	Failure: twisted.spread.pb.PBConnectionLost: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
+	]
+	
+2016-09-29 06:53:13+0800 [BilateralBroker,9,127.0.0.1] node [9] lose
+2016-09-29 06:53:13+0800 [BilateralBroker,1,127.0.0.1] node [1] lose
+2016-09-29 06:53:13+0800 [BilateralBroker,4,127.0.0.1] node [4] lose
+2016-09-29 06:53:13+0800 [-] Main loop terminated.
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7fcf2145ee50>> ignored
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f692b76fe50>> ignored
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7fa1c3887e50>> ignored
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7fdc0a09ce50>> ignored
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f9c50773e50>> ignored
+DELETE FROM tb_item WHERE id=123
+DELETE FROM tb_item WHERE id=123
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f990f2b8e50>> ignored
+DELETE FROM tb_item WHERE id=123
+Exception TypeError: "'NoneType' DELETE FROM tb_item WHERE id=123
+object is not callable"DELETE FROM tb_item WHERE id=123
+ in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f8577e8be50>> ignored
+DELETE FROM tb_item WHERE id=123
+DELETE FROM tb_item WHERE id=123
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f755bfbee50>> ignored
+DELETE FROM tb_item WHERE id=123
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7fabc6d68e50>> ignored
+DELETE FROM tb_item WHERE id=123
+DELETE FROM tb_item WHERE id=123
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f32121cde50>> ignored
+DELETE FROM tb_item WHERE id=123
+2016-09-29 06:53:55+0800 [-] Log opened.
+2016-09-29 06:53:55+0800 [-] DelaySite starting on 33821
+2016-09-29 06:53:55+0800 [-] Starting factory <firefly.web.delayrequest.DelaySite instance at 0x7fe59934c050>
+2016-09-29 06:53:55+0800 [-] BilateralFactory starting on 11812
+2016-09-29 06:53:55+0800 [-] Starting factory <firefly.distributed.root.BilateralFactory instance at 0x7fe59934c7e8>
+2016-09-29 06:53:55+0800 [BilateralBroker,0,127.0.0.1] node [share] takeProxy ready
+2016-09-29 06:53:55+0800 [BilateralBroker,1,127.0.0.1] node [auth] takeProxy ready
+2016-09-29 06:53:55+0800 [BilateralBroker,2,127.0.0.1] node [game3] takeProxy ready
+2016-09-29 06:53:55+0800 [BilateralBroker,3,127.0.0.1] node [game5] takeProxy ready
+2016-09-29 06:53:55+0800 [BilateralBroker,4,127.0.0.1] node [game6] takeProxy ready
+2016-09-29 06:53:55+0800 [BilateralBroker,5,127.0.0.1] node [game2] takeProxy ready
+2016-09-29 06:53:55+0800 [BilateralBroker,6,127.0.0.1] node [net] takeProxy ready
+2016-09-29 06:53:55+0800 [BilateralBroker,7,127.0.0.1] node [game4] takeProxy ready
+2016-09-29 06:53:55+0800 [BilateralBroker,8,127.0.0.1] node [game1] takeProxy ready
+2016-09-29 06:53:55+0800 [BilateralBroker,9,127.0.0.1] node [game7] takeProxy ready
+2016-09-29 06:53:55+0800 [BilateralBroker,10,127.0.0.1] node [game8] takeProxy ready
+2016-09-29 06:53:55+0800 [BilateralBroker,11,127.0.0.1] node [gate] takeProxy ready
+2016-10-02 05:43:22+0800 [-] "127.0.0.1" - - [01/Oct/2016:21:43:22 +0000] "GET /stop HTTP/1.0" 200 4 "-" "Python-urllib/1.17"
+2016-10-02 05:43:23+0800 [BilateralBroker,0,127.0.0.1] node [0] lose
+2016-10-02 05:43:23+0800 [BilateralBroker,1,127.0.0.1] node [1] lose
+2016-10-02 05:43:23+0800 [BilateralBroker,3,127.0.0.1] node [3] lose
+2016-10-02 05:43:23+0800 [BilateralBroker,9,127.0.0.1] node [9] lose
+2016-10-02 05:43:23+0800 [-] Unhandled error in Deferred:
+2016-10-02 05:43:23+0800 [-] Unhandled Error
+	Traceback (most recent call last):
+	Failure: twisted.spread.pb.PBConnectionLost: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
+	]
+	
+2016-10-02 05:43:23+0800 [BilateralBroker,7,127.0.0.1] node [7] lose
+2016-10-02 05:43:23+0800 [firefly.web.delayrequest.DelaySite] (TCP Port 33821 Closed)
+2016-10-02 05:43:23+0800 [firefly.web.delayrequest.DelaySite] Stopping factory <firefly.web.delayrequest.DelaySite instance at 0x7fe59934c050>
+2016-10-02 05:43:23+0800 [BilateralBroker,10,127.0.0.1] node [10] lose
+2016-10-02 05:43:23+0800 [BilateralBroker,4,127.0.0.1] node [4] lose
+2016-10-02 05:43:23+0800 [BilateralBroker,8,127.0.0.1] node [8] lose
+2016-10-02 05:43:23+0800 [BilateralBroker,5,127.0.0.1] node [5] lose
+2016-10-02 05:43:23+0800 [BilateralBroker,2,127.0.0.1] node [2] lose
+2016-10-02 05:43:23+0800 [BilateralBroker,11,127.0.0.1] node [11] lose
+2016-10-02 05:43:23+0800 [-] Unhandled error in Deferred:
+2016-10-02 05:43:23+0800 [-] Unhandled Error
+	Traceback (most recent call last):
+	Failure: twisted.spread.pb.PBConnectionLost: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
+	]
+	
+2016-10-02 05:43:23+0800 [firefly.distributed.root.BilateralFactory] (TCP Port 11812 Closed)
+2016-10-02 05:43:23+0800 [firefly.distributed.root.BilateralFactory] Stopping factory <firefly.distributed.root.BilateralFactory instance at 0x7fe59934c7e8>
+2016-10-02 05:43:23+0800 [BilateralBroker,6,127.0.0.1] node [6] lose
+2016-10-02 05:43:23+0800 [-] Main loop terminated.
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f7537d23e50>> ignored
+DELETE FROM tb_item WHERE id=123
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f5ca7fe3e50>> ignored
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f8a7d67ae50>> ignored
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7fe4c5318e50>> ignored
+DELETE FROM tb_item WHERE id=123
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f5e53febe50>> ignored
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7fc9c11abe50>> ignored
+DELETE FROM tb_item WHERE id=123
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f329d683e50>> ignored
+DELETE FROM tb_item WHERE id=123
+DELETE FROM tb_item WHERE id=123
+Exception TypeError: Exception "'NoDELETE FROM tb_item WHERE id=123
+neType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f46db146e50>>TypeError: "'NoneType' object is DELETE FROM tb_item WHERE id=123
+ ignored
+not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7fda8b5bee50>> ignored
+DELETE FROM tb_item WHERE id=123
+DELETE FROM tb_item WHERE id=123
+DELETE FROM tb_item WHERE id=123
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7fac52499e50>> ignored
+DELETE FROM tb_item WHERE id=123
+2016-10-02 05:45:18+0800 [-] Log opened.
+2016-10-02 05:45:18+0800 [-] DelaySite starting on 33821
+2016-10-02 05:45:18+0800 [-] Starting factory <firefly.web.delayrequest.DelaySite instance at 0x7f890d4dc098>
+2016-10-02 05:45:18+0800 [-] BilateralFactory starting on 11812
+2016-10-02 05:45:18+0800 [-] Starting factory <firefly.distributed.root.BilateralFactory instance at 0x7f890d4dc830>
+2016-10-02 05:45:18+0800 [BilateralBroker,0,127.0.0.1] node [share] takeProxy ready
+2016-10-02 05:45:18+0800 [BilateralBroker,1,127.0.0.1] node [game5] takeProxy ready
+2016-10-02 05:45:18+0800 [BilateralBroker,2,127.0.0.1] node [game3] takeProxy ready
+2016-10-02 05:45:18+0800 [BilateralBroker,3,127.0.0.1] node [game7] takeProxy ready
+2016-10-02 05:45:18+0800 [BilateralBroker,4,127.0.0.1] node [game6] takeProxy ready
+2016-10-02 05:45:18+0800 [BilateralBroker,5,127.0.0.1] node [game2] takeProxy ready
+2016-10-02 05:45:18+0800 [BilateralBroker,6,127.0.0.1] node [net] takeProxy ready
+2016-10-02 05:45:18+0800 [BilateralBroker,7,127.0.0.1] node [game4] takeProxy ready
+2016-10-02 05:45:18+0800 [BilateralBroker,8,127.0.0.1] node [auth] takeProxy ready
+2016-10-02 05:45:18+0800 [BilateralBroker,9,127.0.0.1] node [game1] takeProxy ready
+2016-10-02 05:45:18+0800 [BilateralBroker,10,127.0.0.1] node [game8] takeProxy ready
+2016-10-02 05:45:18+0800 [BilateralBroker,11,127.0.0.1] node [gate] takeProxy ready
+2016-10-12 08:10:17+0800 [BilateralBroker,12,120.76.153.160] node [12] lose
+2016-11-04 07:00:25+0800 [-] "127.0.0.1" - - [03/Nov/2016:23:00:24 +0000] "GET /stop HTTP/1.0" 200 4 "-" "Python-urllib/1.17"
+2016-11-04 07:00:25+0800 [BilateralBroker,1,127.0.0.1] node [1] lose
+2016-11-04 07:00:25+0800 [BilateralBroker,7,127.0.0.1] node [7] lose
+2016-11-04 07:00:25+0800 [BilateralBroker,6,127.0.0.1] node [6] lose
+2016-11-04 07:00:25+0800 [BilateralBroker,4,127.0.0.1] node [4] lose
+2016-11-04 07:00:25+0800 [BilateralBroker,9,127.0.0.1] node [9] lose
+2016-11-04 07:00:25+0800 [firefly.web.delayrequest.DelaySite] (TCP Port 33821 Closed)
+2016-11-04 07:00:25+0800 [firefly.web.delayrequest.DelaySite] Stopping factory <firefly.web.delayrequest.DelaySite instance at 0x7f890d4dc098>
+2016-11-04 07:00:25+0800 [BilateralBroker,2,127.0.0.1] node [2] lose
+2016-11-04 07:00:25+0800 [BilateralBroker,8,127.0.0.1] node [8] lose
+2016-11-04 07:00:25+0800 [firefly.distributed.root.BilateralFactory] (TCP Port 11812 Closed)
+2016-11-04 07:00:25+0800 [firefly.distributed.root.BilateralFactory] Stopping factory <firefly.distributed.root.BilateralFactory instance at 0x7f890d4dc830>
+2016-11-04 07:00:25+0800 [BilateralBroker,10,127.0.0.1] node [10] lose
+2016-11-04 07:00:25+0800 [BilateralBroker,11,127.0.0.1] node [11] lose
+2016-11-04 07:00:25+0800 [-] Unhandled error in Deferred:
+2016-11-04 07:00:25+0800 [-] Unhandled Error
+	Traceback (most recent call last):
+	Failure: twisted.spread.pb.PBConnectionLost: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
+	]
+	
+2016-11-04 07:00:25+0800 [BilateralBroker,3,127.0.0.1] node [3] lose
+2016-11-04 07:00:25+0800 [-] Unhandled error in Deferred:
+2016-11-04 07:00:25+0800 [-] Unhandled Error
+	Traceback (most recent call last):
+	Failure: twisted.spread.pb.PBConnectionLost: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
+	]
+	
+2016-11-04 07:00:25+0800 [BilateralBroker,0,127.0.0.1] node [0] lose
+2016-11-04 07:00:25+0800 [BilateralBroker,5,127.0.0.1] node [5] lose
+2016-11-04 07:00:25+0800 [-] Main loop terminated.
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7fb02f26ae50>> ignored
+DELETE FROM tb_item WHERE id=123
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f0e34458e50>> ignored
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7fdf2cd4ae50>> ignored
+DELETE FROM tb_item WHERE id=123
+DELETE FROM tb_item WHERE id=123
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7fb410b51e50>> ignored
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7ff875443e50>> ignored
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f8a2a9c7e50>> ignored
+DELETE FROM tb_item WHERE id=123
+DELETE FROM tb_item WHERE id=123
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f04a67eee50>> ignored
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f46e540ce50>> ignored
+DELETE FROM tb_item WHERE id=123
+DELETE FROM tb_item WHERE id=123
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f277be68e50>> ignored
+DELETE FROM tb_item WHERE id=123
+DELETE FROM tb_item WHERE id=123
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f111b118e50>> ignored
+DELETE FROM tb_item WHERE id=123
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f9b2dff5e50>> ignored
+DELETE FROM tb_item WHERE id=123

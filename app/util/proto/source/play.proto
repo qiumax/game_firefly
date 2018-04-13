@@ -1,0 +1,69 @@
+
+// 玩家操作
+message m_4001_tos {
+    required uint32 operate = 1; // 1 准备, 2 暂离, 3 解散房间, 4 切牌， 8 选牌，
+	optional int32 operater_value=2;//操作携带参数， 比如选牌需要把所选的牌序号填上来
+}
+
+message m_4001_toc {
+    required uint32 operate = 1; // 1 准备, 2 暂离, 3 解散房间, 4 切牌, 8 选牌， 10 离开房间
+}
+
+// 向房间内所有玩家广播某个玩家的操作
+message m_4002_toc {
+    required uint32 account_id = 1; // 账号ID
+    required uint32 operate = 2; // 1 准备, 2 暂离, 3 解散房间, 4 切牌, 10 离开房间
+}
+
+// 所有玩家准备好后, 发牌给所有玩家
+message m_4003_toc {
+    required uint32 execute_account_id = 1; // 当前出牌玩家
+    repeated uint32	cards = 2;              // 发牌
+}
+
+// 扑克游戏结算
+message m_4004_toc {
+    repeated p_close_info close_info = 1;
+    required uint32 win_account_id = 2;
+}
+
+message p_close_info {
+    required uint32 account_id = 1;         // 玩家账号ID
+    required uint32 card_count = 2;         // 剩余的牌数
+    repeated p_poker_dispatch_card dispatch_cards = 3;  // 玩家出牌
+    required int32 point_change = 4;        // 分数变化
+    optional int32 point = 5;               // 当前积分
+}
+
+message p_poker_dispatch_card {
+    repeated uint32 card_id = 1;
+}
+
+
+// 切牌结束
+message m_4005_tos {
+
+}
+
+// 麻将游戏结算
+message m_4006_toc {
+    required uint32 win_account_id = 1;     // 胡牌的玩家
+    required uint32 win_card_id = 2;        // 胡的那张牌
+    required uint32 win_status = 3;         // 胡牌的形式：5 平胡; 6 自摸
+    required uint32 lose_account_id = 4;    // 点炮的玩家(自摸的时候为胡牌玩家自己)
+    repeated p_close_mahjong_info close_info = 5;      // 玩家结算信息
+}
+
+message p_close_mahjong_info {
+    required uint32 account_id = 1;
+    repeated p_mahjong_award_card award_card = 2;      // 玩家吃/碰/杠的牌
+    repeated uint32 card_id = 3;            // 玩家手上剩余的牌
+    required int32 point_change = 4;        // 玩家积分变化
+    required int32 current_point = 5;       // 玩家当前积分
+}
+
+message p_mahjong_award_card {
+    repeated uint32 card_id = 1;
+}
+
+

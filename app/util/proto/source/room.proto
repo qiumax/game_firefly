@@ -1,0 +1,219 @@
+
+// 创建房间
+message m_3001_tos{
+    required uint32 room_type = 1;      // 房间类型
+    required uint32 rounds = 2;		    // 房间允许回合数, 例如打10盘就关闭房间, 20盘关闭房间, 30盘关闭房间, ...
+    optional uint32 help = 3;           // 额外参数 在跑得快中 1 表示猴子玩法. 在麻将中 1 表示只允许自摸
+}
+
+message m_3001_toc{
+    required uint32 room_id = 1;        // 房间ID
+    required uint32 room_type = 2;      // 房间类型
+    optional uint32 rounds = 3;         // 房间允许回合数
+    optional uint32 room_help = 4;          // room help
+}
+
+// 加入房间/恢复房间
+message m_3002_tos {
+    required uint32 room_id = 1;            // room id
+}
+
+// 扑克牌
+message m_3002_toc {
+    required uint32 room_id = 1;            // room id
+    required uint32 room_type = 2;          // room type
+    repeated p_user_room user_room = 3;     // 房间中的玩家信息
+    repeated uint32 user_cards = 4;         // 自己手中拥有的牌
+    optional uint32 execute_account_id = 5; // 当前出牌玩家
+    optional uint32 last_account_id = 6;    // 最后一次出牌的玩家
+    repeated uint32 last_cards = 7;         // 最后一次出的牌
+    required uint32 user_id = 8;            // 房主ID
+    optional uint32 rounds = 9;             // 房间当前回合数
+    optional uint32 max_rounds = 10;         // 房间允许回合数
+    optional uint32 room_help = 11;          // room help
+}
+
+message p_user_room {
+    required uint32 position = 1;       // 位置 1, 2, 3, ...
+    required uint32 account_id = 2;     // 账号ID
+    optional string name = 3;           // 玩家名
+    optional string head_frame = 4;     // 头像框
+    optional string head_icon = 5;      // 头像
+    optional uint32 sex = 6;            // 性别
+    optional string ip = 7;             // IP地址 "120.1.1.2"
+    optional int32 point = 8;           // 积分
+    optional uint32 status = 9;         // 玩家状态: 1 正常, 2 暂离, 3 准备, 5 报警
+	optional uint32 random_poker = 10;	// 第一把定庄的那张牌,1-5之间的一个随机数
+}
+
+// 麻将
+message m_3003_toc {
+    required uint32 room_id = 1;            // room id
+    repeated p_user_mah_room user_room = 2; // 房间中的玩家信息
+    repeated uint32 user_cards = 3;         // 自己手中拥有的牌
+    optional uint32 execute_account_id = 4; // 当前出牌玩家
+    optional uint32 last_account_id = 5;    // 最后一次出牌的玩家
+    repeated uint32 last_cards = 6;         // 最后一次出的牌
+    required uint32 user_id = 7;            // 房主ID
+    optional uint32 rounds = 8;             // 房间当前回合数
+    optional uint32 max_rounds = 9;         // 房间允许回合数
+    optional uint32 maker_account_id = 10;           // 庄家账号ID
+    repeated uint32 craps = 11;                      // 多枚色子点数
+    optional uint32 mahjong_start_num = 12;          // 拿牌第几张
+    optional uint32 mahjong_end_num = 13;            // 补牌第几章
+    optional uint32 operator_account_id = 14;        // 当前操作的玩家帐号
+}
+
+message p_user_mah_room {
+    required uint32 position = 1;       // 位置 1, 2, 3, ...
+    required uint32 account_id = 2;     // 账号ID
+    optional string name = 3;           // 玩家名
+    optional string head_frame = 4;     // 头像框
+    optional string head_icon = 5;      // 头像
+    optional uint32 sex = 6;            // 性别
+    optional string ip = 7;             // IP地址 "120.1.1.2"
+    optional int32 point = 8;           // 积分
+    optional uint32 status = 9;         // 玩家状态: 1 正常, 2 暂离, 3 准备
+    repeated uint32 pre_cards = 10;     // 玩家已经出的牌
+    repeated p_cards award_cards = 11;  // 玩家已经获得的牌（比如麻将中已经吃，碰，杠的牌）
+    optional uint32 card_count = 12;    // 玩家拥有牌的数量
+    optional bool operator_able = 13;   // 如果为true才可以操作operator, 否则只是显示而已,等待优先级更高的人操作
+    repeated uint32 operators = 14;      // 0 不操作, 1 吃, 2 碰, 3 明杠, 4 暗杠, 5 胡, 6 自摸
+}
+
+// 之前每次出的牌
+message p_cards {
+    repeated uint32 cards = 1;
+}
+
+// 广播玩家进入poker房间消息
+message m_3005_toc {
+    required p_user_room user_room = 1;
+}
+
+// 广播玩家离开房间消息
+message m_3006_toc {
+    required uint32 account_id = 1;
+}
+
+// 广播玩家进入麻将房间
+message m_3007_toc {
+    required p_user_mah_room user_room = 1;
+}
+
+// 房间人满通知
+message m_3008_toc {
+    required uint32 room_type = 1;
+}
+
+// 短消息ID
+message m_3101_tos {
+	required uint32 message = 1;
+}
+
+// 短消息ID
+message m_3101_toc {
+	required uint32 message = 1;
+}
+
+// 转发短消息给房间内所有玩家
+message m_3102_toc {
+    required uint32 account_id = 1; // 账号ID
+    required uint32 message = 2;
+}
+
+// 云语音url
+message m_3103_tos{
+	required string voice_url = 1;
+}
+
+// 云语音url
+message m_3103_toc{
+	required string voice_url = 1;
+}
+
+// 转发云语音url给房间内所有玩家
+message m_3104_toc {
+    required uint32 account_id = 1; // 账号ID
+    required string voice_url = 2;
+}
+
+
+// 打开大厅个人历史记录
+message m_3201_tos {
+
+}
+
+message m_3201_toc {
+    required int32 poker_point = 1;             // 扑克总积分
+    required int32 mahjong_point = 2;           // 麻将总积分
+    repeated p_history_info history_info = 3;   // 每局历史信息
+    optional int32 gold_point = 4;              // 金币总积分
+}
+
+message p_history_info {
+    required uint32 room_id = 1;                // 房间ID
+    required uint32 room_type = 2;              // 房间类型
+    required uint32 win_account_id = 3;         // 胜利玩家的帐号ID
+    required uint32 server_t = 4;               // 服务器时间戳
+    required uint32 round = 5;                  // 所在房间当前回合数
+    required uint32 max_round = 6;              // 所在房间最大回合数
+    repeated p_history_player history_player = 7;   // 参与的玩家信息
+}
+
+message p_history_player {
+    required uint32 account_id = 1;             // 玩家帐号ID
+    required string name = 2;                   // 玩家名
+    required int32 point_changes = 3;          // 本局积分变化
+    required int32 room_point = 4;             // 在该房间内积分变化
+    required int32 all_point = 5;              // 当前该类型游戏总积分
+}
+
+
+// 在线匹配
+message m_3202_tos {
+    required uint32 room_type = 1;              // 房间类型
+}
+
+message m_3202_toc {
+
+}
+
+// 匹配成功, 客户端收到该房间号后直接拉入房间 m_3002_tos
+message m_3203_toc {
+    required uint32 room_id = 1;
+}
+
+
+// 取消在线匹配
+message m_3204_tos {
+
+}
+
+message m_3204_toc {
+
+}
+
+// 查询最近6个有效的房间
+message m_3205_tos {
+    
+}
+
+message m_3205_toc {
+    repeated uint32 cards = 1;
+}
+
+//用户不在线列表
+message m_3300_toc {
+    required uint32 room_id = 1; //RoomID
+    repeated uint32 account_ids = 2; //检查到不在线玩家ID
+    repeated uint32 account_status = 3; //与玩家Id对于的玩家状态
+}
+
+//选牌广播
+message m_3301_toc {
+    required uint32 room_id = 1; //RoomID
+    repeated uint32 account_id_list =2; //对应account_id
+	repeated uint32 random_poker_list = 3; //1-5之间的一个随机数，用于抽牌定庄
+}
+

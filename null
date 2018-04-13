@@ -1,0 +1,842 @@
+2017-02-06 14:30:53+0800 [-] Log opened.
+2017-02-06 14:30:53+0800 [-] DelaySite starting on 33821
+2017-02-06 14:30:53+0800 [-] Starting factory <firefly.web.delayrequest.DelaySite instance at 0x7f450102b098>
+2017-02-06 14:30:53+0800 [-] BilateralFactory starting on 11812
+2017-02-06 14:30:53+0800 [-] Starting factory <firefly.distributed.root.BilateralFactory instance at 0x7f450102b830>
+2017-02-06 14:30:53+0800 [BilateralBroker,0,127.0.0.1] node [net] takeProxy ready
+2017-02-06 14:30:53+0800 [BilateralBroker,1,127.0.0.1] node [share] takeProxy ready
+2017-02-06 14:30:53+0800 [BilateralBroker,2,127.0.0.1] node [auth] takeProxy ready
+2017-02-06 14:30:53+0800 [BilateralBroker,3,127.0.0.1] node [game5] takeProxy ready
+2017-02-06 14:30:53+0800 [BilateralBroker,5,127.0.0.1] node [game2] takeProxy ready
+2017-02-06 14:30:53+0800 [BilateralBroker,4,127.0.0.1] node [game3] takeProxy ready
+2017-02-06 14:30:53+0800 [BilateralBroker,6,127.0.0.1] node [game6] takeProxy ready
+2017-02-06 14:30:53+0800 [BilateralBroker,7,127.0.0.1] node [game7] takeProxy ready
+2017-02-06 14:30:53+0800 [BilateralBroker,8,127.0.0.1] node [game8] takeProxy ready
+2017-02-06 14:30:53+0800 [BilateralBroker,9,127.0.0.1] node [game4] takeProxy ready
+2017-02-06 14:30:53+0800 [BilateralBroker,10,127.0.0.1] node [game1] takeProxy ready
+2017-02-06 14:30:53+0800 [BilateralBroker,11,127.0.0.1] node [gate] takeProxy ready
+2017-02-06 14:40:35+0800 [BilateralBroker,12,127.0.0.1] node [12] lose
+2017-02-06 14:50:35+0800 [BilateralBroker,13,127.0.0.1] node [13] lose
+2017-02-06 15:00:36+0800 [BilateralBroker,14,127.0.0.1] node [14] lose
+2017-02-06 15:10:36+0800 [BilateralBroker,15,127.0.0.1] node [15] lose
+2017-02-06 15:20:37+0800 [BilateralBroker,16,127.0.0.1] node [16] lose
+2017-02-06 15:30:37+0800 [BilateralBroker,17,127.0.0.1] node [17] lose
+2017-02-06 15:40:38+0800 [BilateralBroker,18,127.0.0.1] node [18] lose
+2017-02-06 15:50:38+0800 [BilateralBroker,19,127.0.0.1] node [19] lose
+2017-02-06 16:00:39+0800 [BilateralBroker,20,127.0.0.1] node [20] lose
+2017-02-06 16:10:39+0800 [BilateralBroker,21,127.0.0.1] node [21] lose
+2017-02-06 16:20:40+0800 [BilateralBroker,22,127.0.0.1] node [22] lose
+2017-02-06 16:30:40+0800 [BilateralBroker,23,127.0.0.1] node [23] lose
+2017-02-06 16:40:41+0800 [BilateralBroker,24,127.0.0.1] node [24] lose
+2017-02-06 16:50:41+0800 [BilateralBroker,25,127.0.0.1] node [25] lose
+2017-02-06 17:00:42+0800 [BilateralBroker,26,127.0.0.1] node [26] lose
+2017-02-06 17:10:43+0800 [BilateralBroker,27,127.0.0.1] node [27] lose
+2017-02-06 17:20:43+0800 [BilateralBroker,28,127.0.0.1] node [28] lose
+2017-02-06 17:30:43+0800 [BilateralBroker,29,127.0.0.1] node [29] lose
+2017-02-06 17:40:44+0800 [BilateralBroker,30,127.0.0.1] node [30] lose
+2017-02-06 17:50:44+0800 [BilateralBroker,31,127.0.0.1] node [31] lose
+2017-02-06 18:00:45+0800 [BilateralBroker,32,127.0.0.1] node [32] lose
+2017-02-06 18:10:46+0800 [BilateralBroker,33,127.0.0.1] node [33] lose
+2017-02-06 18:20:46+0800 [BilateralBroker,34,127.0.0.1] node [34] lose
+2017-02-06 18:30:47+0800 [BilateralBroker,35,127.0.0.1] node [35] lose
+2017-02-06 18:40:47+0800 [BilateralBroker,36,127.0.0.1] node [36] lose
+2017-02-06 18:50:48+0800 [BilateralBroker,37,127.0.0.1] node [37] lose
+2017-02-06 19:00:48+0800 [BilateralBroker,38,127.0.0.1] node [38] lose
+2017-02-06 19:10:49+0800 [BilateralBroker,39,127.0.0.1] node [39] lose
+2017-02-06 19:20:49+0800 [BilateralBroker,40,127.0.0.1] node [40] lose
+2017-02-06 19:30:50+0800 [BilateralBroker,41,127.0.0.1] node [41] lose
+2017-02-06 19:40:50+0800 [BilateralBroker,42,127.0.0.1] node [42] lose
+2017-02-06 19:50:51+0800 [BilateralBroker,43,127.0.0.1] node [43] lose
+2017-02-06 20:00:51+0800 [BilateralBroker,44,127.0.0.1] node [44] lose
+2017-02-06 20:10:52+0800 [BilateralBroker,45,127.0.0.1] node [45] lose
+2017-02-06 20:20:52+0800 [BilateralBroker,46,127.0.0.1] node [46] lose
+2017-02-06 20:30:53+0800 [BilateralBroker,47,127.0.0.1] node [47] lose
+2017-02-06 20:40:53+0800 [BilateralBroker,48,127.0.0.1] node [48] lose
+2017-02-06 20:50:54+0800 [BilateralBroker,49,127.0.0.1] node [49] lose
+2017-02-06 21:00:54+0800 [BilateralBroker,50,127.0.0.1] node [50] lose
+2017-02-06 21:10:55+0800 [BilateralBroker,51,127.0.0.1] node [51] lose
+2017-02-06 21:20:55+0800 [BilateralBroker,52,127.0.0.1] node [52] lose
+2017-02-06 21:30:56+0800 [BilateralBroker,53,127.0.0.1] node [53] lose
+2017-02-06 21:40:56+0800 [BilateralBroker,54,127.0.0.1] node [54] lose
+2017-02-06 21:50:57+0800 [BilateralBroker,55,127.0.0.1] node [55] lose
+2017-02-06 22:00:57+0800 [BilateralBroker,56,127.0.0.1] node [56] lose
+2017-02-06 22:10:58+0800 [BilateralBroker,57,127.0.0.1] node [57] lose
+2017-02-06 22:20:58+0800 [BilateralBroker,58,127.0.0.1] node [58] lose
+2017-02-06 22:30:59+0800 [BilateralBroker,59,127.0.0.1] node [59] lose
+2017-02-06 22:40:59+0800 [BilateralBroker,60,127.0.0.1] node [60] lose
+2017-02-06 22:51:00+0800 [BilateralBroker,61,127.0.0.1] node [61] lose
+2017-02-06 23:01:00+0800 [BilateralBroker,62,127.0.0.1] node [62] lose
+2017-02-06 23:11:01+0800 [BilateralBroker,63,127.0.0.1] node [63] lose
+2017-02-06 23:21:02+0800 [BilateralBroker,64,127.0.0.1] node [64] lose
+2017-02-06 23:31:02+0800 [BilateralBroker,65,127.0.0.1] node [65] lose
+2017-02-06 23:41:03+0800 [BilateralBroker,66,127.0.0.1] node [66] lose
+2017-02-06 23:51:03+0800 [BilateralBroker,67,127.0.0.1] node [67] lose
+2017-02-07 00:01:04+0800 [BilateralBroker,68,127.0.0.1] node [68] lose
+2017-02-07 00:11:04+0800 [BilateralBroker,69,127.0.0.1] node [69] lose
+2017-02-07 00:21:05+0800 [BilateralBroker,70,127.0.0.1] node [70] lose
+2017-02-07 00:31:05+0800 [BilateralBroker,71,127.0.0.1] node [71] lose
+2017-02-07 00:41:06+0800 [BilateralBroker,72,127.0.0.1] node [72] lose
+2017-02-07 00:51:06+0800 [BilateralBroker,73,127.0.0.1] node [73] lose
+2017-02-07 01:01:07+0800 [BilateralBroker,74,127.0.0.1] node [74] lose
+2017-02-07 01:11:07+0800 [BilateralBroker,75,127.0.0.1] node [75] lose
+2017-02-07 01:21:08+0800 [BilateralBroker,76,127.0.0.1] node [76] lose
+2017-02-07 01:31:08+0800 [BilateralBroker,77,127.0.0.1] node [77] lose
+2017-02-07 01:41:09+0800 [BilateralBroker,78,127.0.0.1] node [78] lose
+2017-02-07 01:51:09+0800 [BilateralBroker,79,127.0.0.1] node [79] lose
+2017-02-07 02:01:10+0800 [BilateralBroker,80,127.0.0.1] node [80] lose
+2017-02-07 02:11:10+0800 [BilateralBroker,81,127.0.0.1] node [81] lose
+2017-02-07 02:21:11+0800 [BilateralBroker,82,127.0.0.1] node [82] lose
+2017-02-07 02:31:11+0800 [BilateralBroker,83,127.0.0.1] node [83] lose
+2017-02-07 02:41:12+0800 [BilateralBroker,84,127.0.0.1] node [84] lose
+2017-02-07 02:51:13+0800 [BilateralBroker,85,127.0.0.1] node [85] lose
+2017-02-07 03:01:13+0800 [BilateralBroker,86,127.0.0.1] node [86] lose
+2017-02-07 03:11:14+0800 [BilateralBroker,87,127.0.0.1] node [87] lose
+2017-02-07 03:21:14+0800 [BilateralBroker,88,127.0.0.1] node [88] lose
+2017-02-07 03:31:15+0800 [BilateralBroker,89,127.0.0.1] node [89] lose
+2017-02-07 03:41:15+0800 [BilateralBroker,90,127.0.0.1] node [90] lose
+2017-02-07 03:51:16+0800 [BilateralBroker,91,127.0.0.1] node [91] lose
+2017-02-07 04:01:16+0800 [BilateralBroker,92,127.0.0.1] node [92] lose
+2017-02-07 04:11:17+0800 [BilateralBroker,93,127.0.0.1] node [93] lose
+2017-02-07 04:21:17+0800 [BilateralBroker,94,127.0.0.1] node [94] lose
+2017-02-07 04:31:18+0800 [BilateralBroker,95,127.0.0.1] node [95] lose
+2017-02-07 04:41:18+0800 [BilateralBroker,96,127.0.0.1] node [96] lose
+2017-02-07 04:51:19+0800 [BilateralBroker,97,127.0.0.1] node [97] lose
+2017-02-07 05:01:19+0800 [BilateralBroker,98,127.0.0.1] node [98] lose
+2017-02-07 05:11:20+0800 [BilateralBroker,99,127.0.0.1] node [99] lose
+2017-02-07 05:21:20+0800 [BilateralBroker,100,127.0.0.1] node [100] lose
+2017-02-07 05:31:21+0800 [BilateralBroker,101,127.0.0.1] node [101] lose
+2017-02-07 05:41:21+0800 [BilateralBroker,102,127.0.0.1] node [102] lose
+2017-02-07 05:51:22+0800 [BilateralBroker,103,127.0.0.1] node [103] lose
+2017-02-07 06:01:22+0800 [BilateralBroker,104,127.0.0.1] node [104] lose
+2017-02-07 06:11:23+0800 [BilateralBroker,105,127.0.0.1] node [105] lose
+2017-02-07 06:21:23+0800 [BilateralBroker,106,127.0.0.1] node [106] lose
+2017-02-07 06:31:24+0800 [BilateralBroker,107,127.0.0.1] node [107] lose
+2017-02-07 06:41:24+0800 [BilateralBroker,108,127.0.0.1] node [108] lose
+2017-02-07 06:51:25+0800 [BilateralBroker,109,127.0.0.1] node [109] lose
+2017-02-07 07:01:25+0800 [BilateralBroker,110,127.0.0.1] node [110] lose
+2017-02-07 07:11:26+0800 [BilateralBroker,111,127.0.0.1] node [111] lose
+2017-02-07 07:21:27+0800 [BilateralBroker,112,127.0.0.1] node [112] lose
+2017-02-07 07:31:27+0800 [BilateralBroker,113,127.0.0.1] node [113] lose
+2017-02-07 07:41:28+0800 [BilateralBroker,114,127.0.0.1] node [114] lose
+2017-02-07 07:51:28+0800 [BilateralBroker,115,127.0.0.1] node [115] lose
+2017-02-07 08:01:29+0800 [BilateralBroker,116,127.0.0.1] node [116] lose
+2017-02-07 08:11:29+0800 [BilateralBroker,117,127.0.0.1] node [117] lose
+2017-02-07 08:21:30+0800 [BilateralBroker,118,127.0.0.1] node [118] lose
+2017-02-07 08:31:30+0800 [BilateralBroker,119,127.0.0.1] node [119] lose
+2017-02-07 08:41:31+0800 [BilateralBroker,120,127.0.0.1] node [120] lose
+2017-02-07 08:51:31+0800 [BilateralBroker,121,127.0.0.1] node [121] lose
+2017-02-07 09:01:32+0800 [BilateralBroker,122,127.0.0.1] node [122] lose
+2017-02-07 09:11:32+0800 [BilateralBroker,123,127.0.0.1] node [123] lose
+2017-02-07 09:21:33+0800 [BilateralBroker,124,127.0.0.1] node [124] lose
+2017-02-07 09:31:34+0800 [BilateralBroker,125,127.0.0.1] node [125] lose
+2017-02-07 09:41:34+0800 [BilateralBroker,126,127.0.0.1] node [126] lose
+2017-02-07 09:51:35+0800 [BilateralBroker,127,127.0.0.1] node [127] lose
+2017-02-07 10:01:35+0800 [BilateralBroker,128,127.0.0.1] node [128] lose
+2017-02-07 10:11:36+0800 [BilateralBroker,129,127.0.0.1] node [129] lose
+2017-02-07 10:21:36+0800 [BilateralBroker,130,127.0.0.1] node [130] lose
+2017-02-07 10:31:37+0800 [BilateralBroker,131,127.0.0.1] node [131] lose
+2017-02-07 10:41:37+0800 [BilateralBroker,132,127.0.0.1] node [132] lose
+2017-02-07 10:51:38+0800 [BilateralBroker,133,127.0.0.1] node [133] lose
+2017-02-07 11:01:38+0800 [BilateralBroker,134,127.0.0.1] node [134] lose
+2017-02-07 11:11:39+0800 [BilateralBroker,135,127.0.0.1] node [135] lose
+2017-02-07 11:21:39+0800 [BilateralBroker,136,127.0.0.1] node [136] lose
+2017-02-07 11:31:40+0800 [BilateralBroker,137,127.0.0.1] node [137] lose
+2017-02-07 11:41:41+0800 [BilateralBroker,138,127.0.0.1] node [138] lose
+2017-02-07 11:51:41+0800 [BilateralBroker,139,127.0.0.1] node [139] lose
+2017-02-07 12:01:42+0800 [BilateralBroker,140,127.0.0.1] node [140] lose
+2017-02-07 12:11:42+0800 [BilateralBroker,141,127.0.0.1] node [141] lose
+2017-02-07 12:21:43+0800 [BilateralBroker,142,127.0.0.1] node [142] lose
+2017-02-07 12:31:43+0800 [BilateralBroker,143,127.0.0.1] node [143] lose
+2017-02-07 12:41:44+0800 [BilateralBroker,144,127.0.0.1] node [144] lose
+2017-02-07 12:51:44+0800 [BilateralBroker,145,127.0.0.1] node [145] lose
+2017-02-07 13:01:45+0800 [BilateralBroker,146,127.0.0.1] node [146] lose
+2017-02-07 13:11:45+0800 [BilateralBroker,147,127.0.0.1] node [147] lose
+2017-02-07 13:21:46+0800 [BilateralBroker,148,127.0.0.1] node [148] lose
+2017-02-07 13:31:46+0800 [BilateralBroker,149,127.0.0.1] node [149] lose
+2017-02-07 13:41:47+0800 [BilateralBroker,150,127.0.0.1] node [150] lose
+2017-02-07 13:51:47+0800 [BilateralBroker,151,127.0.0.1] node [151] lose
+2017-02-07 14:01:48+0800 [BilateralBroker,152,127.0.0.1] node [152] lose
+2017-02-07 14:11:48+0800 [BilateralBroker,153,127.0.0.1] node [153] lose
+2017-02-07 14:21:49+0800 [BilateralBroker,154,127.0.0.1] node [154] lose
+2017-02-07 14:31:50+0800 [BilateralBroker,155,127.0.0.1] node [155] lose
+2017-02-07 14:41:50+0800 [BilateralBroker,156,127.0.0.1] node [156] lose
+2017-02-07 14:51:51+0800 [BilateralBroker,157,127.0.0.1] node [157] lose
+2017-02-07 15:01:51+0800 [BilateralBroker,158,127.0.0.1] node [158] lose
+2017-02-07 15:11:52+0800 [BilateralBroker,159,127.0.0.1] node [159] lose
+2017-02-07 15:21:53+0800 [BilateralBroker,160,127.0.0.1] node [160] lose
+2017-02-07 15:31:53+0800 [BilateralBroker,161,127.0.0.1] node [161] lose
+2017-02-07 15:41:54+0800 [BilateralBroker,162,127.0.0.1] node [162] lose
+2017-02-07 15:51:54+0800 [BilateralBroker,163,127.0.0.1] node [163] lose
+2017-02-07 16:01:55+0800 [BilateralBroker,164,127.0.0.1] node [164] lose
+2017-02-07 16:11:55+0800 [BilateralBroker,165,127.0.0.1] node [165] lose
+2017-02-07 16:21:56+0800 [BilateralBroker,166,127.0.0.1] node [166] lose
+2017-02-07 16:31:56+0800 [BilateralBroker,167,127.0.0.1] node [167] lose
+2017-02-07 16:41:57+0800 [BilateralBroker,168,127.0.0.1] node [168] lose
+2017-02-07 16:51:58+0800 [BilateralBroker,169,127.0.0.1] node [169] lose
+2017-02-07 17:01:58+0800 [BilateralBroker,170,127.0.0.1] node [170] lose
+2017-02-07 17:11:59+0800 [BilateralBroker,171,127.0.0.1] node [171] lose
+2017-02-07 17:21:59+0800 [BilateralBroker,172,127.0.0.1] node [172] lose
+2017-02-07 17:32:00+0800 [BilateralBroker,173,127.0.0.1] node [173] lose
+2017-02-07 17:42:00+0800 [BilateralBroker,174,127.0.0.1] node [174] lose
+2017-02-07 17:52:01+0800 [BilateralBroker,175,127.0.0.1] node [175] lose
+2017-02-07 18:02:01+0800 [BilateralBroker,176,127.0.0.1] node [176] lose
+2017-02-07 18:12:02+0800 [BilateralBroker,177,127.0.0.1] node [177] lose
+2017-02-07 18:22:02+0800 [BilateralBroker,178,127.0.0.1] node [178] lose
+2017-02-07 18:32:03+0800 [BilateralBroker,179,127.0.0.1] node [179] lose
+2017-02-07 18:42:03+0800 [BilateralBroker,180,127.0.0.1] node [180] lose
+2017-02-07 18:52:04+0800 [BilateralBroker,181,127.0.0.1] node [181] lose
+2017-02-07 19:02:04+0800 [BilateralBroker,182,127.0.0.1] node [182] lose
+2017-02-07 19:12:05+0800 [BilateralBroker,183,127.0.0.1] node [183] lose
+2017-02-07 19:22:05+0800 [BilateralBroker,184,127.0.0.1] node [184] lose
+2017-02-07 19:32:06+0800 [BilateralBroker,185,127.0.0.1] node [185] lose
+2017-02-07 19:42:07+0800 [BilateralBroker,186,127.0.0.1] node [186] lose
+2017-02-07 19:52:07+0800 [BilateralBroker,187,127.0.0.1] node [187] lose
+2017-02-07 20:02:08+0800 [BilateralBroker,188,127.0.0.1] node [188] lose
+2017-02-07 20:12:08+0800 [BilateralBroker,189,127.0.0.1] node [189] lose
+2017-02-07 20:22:09+0800 [BilateralBroker,190,127.0.0.1] node [190] lose
+2017-02-07 20:32:09+0800 [BilateralBroker,191,127.0.0.1] node [191] lose
+2017-02-07 20:42:10+0800 [BilateralBroker,192,127.0.0.1] node [192] lose
+2017-02-07 20:52:10+0800 [BilateralBroker,193,127.0.0.1] node [193] lose
+2017-02-07 21:02:11+0800 [BilateralBroker,194,127.0.0.1] node [194] lose
+2017-02-07 21:12:11+0800 [BilateralBroker,195,127.0.0.1] node [195] lose
+2017-02-07 21:22:12+0800 [BilateralBroker,196,127.0.0.1] node [196] lose
+2017-02-07 21:32:12+0800 [BilateralBroker,197,127.0.0.1] node [197] lose
+2017-02-07 21:42:13+0800 [BilateralBroker,198,127.0.0.1] node [198] lose
+2017-02-07 21:52:13+0800 [BilateralBroker,199,127.0.0.1] node [199] lose
+2017-02-07 22:02:14+0800 [BilateralBroker,200,127.0.0.1] node [200] lose
+2017-02-07 22:12:14+0800 [BilateralBroker,201,127.0.0.1] node [201] lose
+2017-02-07 22:22:15+0800 [BilateralBroker,202,127.0.0.1] node [202] lose
+2017-02-07 22:32:16+0800 [BilateralBroker,203,127.0.0.1] node [203] lose
+2017-02-07 22:42:16+0800 [BilateralBroker,204,127.0.0.1] node [204] lose
+2017-02-07 22:52:17+0800 [BilateralBroker,205,127.0.0.1] node [205] lose
+2017-02-07 23:02:17+0800 [BilateralBroker,206,127.0.0.1] node [206] lose
+2017-02-07 23:12:18+0800 [BilateralBroker,207,127.0.0.1] node [207] lose
+2017-02-07 23:22:18+0800 [BilateralBroker,208,127.0.0.1] node [208] lose
+2017-02-07 23:32:19+0800 [BilateralBroker,209,127.0.0.1] node [209] lose
+2017-02-07 23:42:19+0800 [BilateralBroker,210,127.0.0.1] node [210] lose
+2017-02-07 23:52:20+0800 [BilateralBroker,211,127.0.0.1] node [211] lose
+2017-02-08 00:02:20+0800 [BilateralBroker,212,127.0.0.1] node [212] lose
+2017-02-08 00:12:21+0800 [BilateralBroker,213,127.0.0.1] node [213] lose
+2017-02-08 00:22:22+0800 [BilateralBroker,214,127.0.0.1] node [214] lose
+2017-02-08 00:32:22+0800 [BilateralBroker,215,127.0.0.1] node [215] lose
+2017-02-08 00:42:23+0800 [BilateralBroker,216,127.0.0.1] node [216] lose
+2017-02-08 00:52:23+0800 [BilateralBroker,217,127.0.0.1] node [217] lose
+2017-02-08 01:02:24+0800 [BilateralBroker,218,127.0.0.1] node [218] lose
+2017-02-08 01:12:24+0800 [BilateralBroker,219,127.0.0.1] node [219] lose
+2017-02-08 01:22:25+0800 [BilateralBroker,220,127.0.0.1] node [220] lose
+2017-02-08 01:32:25+0800 [BilateralBroker,221,127.0.0.1] node [221] lose
+2017-02-08 01:42:26+0800 [BilateralBroker,222,127.0.0.1] node [222] lose
+2017-02-08 01:52:26+0800 [BilateralBroker,223,127.0.0.1] node [223] lose
+2017-02-08 02:02:27+0800 [BilateralBroker,224,127.0.0.1] node [224] lose
+2017-02-08 02:12:27+0800 [BilateralBroker,225,127.0.0.1] node [225] lose
+2017-02-08 02:22:28+0800 [BilateralBroker,226,127.0.0.1] node [226] lose
+2017-02-08 02:32:28+0800 [BilateralBroker,227,127.0.0.1] node [227] lose
+2017-02-08 02:42:29+0800 [BilateralBroker,228,127.0.0.1] node [228] lose
+2017-02-08 02:52:29+0800 [BilateralBroker,229,127.0.0.1] node [229] lose
+2017-02-08 03:02:30+0800 [BilateralBroker,230,127.0.0.1] node [230] lose
+2017-02-08 03:12:30+0800 [BilateralBroker,231,127.0.0.1] node [231] lose
+2017-02-08 03:22:31+0800 [BilateralBroker,232,127.0.0.1] node [232] lose
+2017-02-08 03:32:31+0800 [BilateralBroker,233,127.0.0.1] node [233] lose
+2017-02-08 03:42:32+0800 [BilateralBroker,234,127.0.0.1] node [234] lose
+2017-02-08 03:52:32+0800 [BilateralBroker,235,127.0.0.1] node [235] lose
+2017-02-08 04:02:33+0800 [BilateralBroker,236,127.0.0.1] node [236] lose
+2017-02-08 04:12:33+0800 [BilateralBroker,237,127.0.0.1] node [237] lose
+2017-02-08 04:22:34+0800 [BilateralBroker,238,127.0.0.1] node [238] lose
+2017-02-08 04:32:35+0800 [BilateralBroker,239,127.0.0.1] node [239] lose
+2017-02-08 04:42:35+0800 [BilateralBroker,240,127.0.0.1] node [240] lose
+2017-02-08 04:52:36+0800 [BilateralBroker,241,127.0.0.1] node [241] lose
+2017-02-08 05:02:36+0800 [BilateralBroker,242,127.0.0.1] node [242] lose
+2017-02-08 05:12:37+0800 [BilateralBroker,243,127.0.0.1] node [243] lose
+2017-02-08 05:22:38+0800 [BilateralBroker,244,127.0.0.1] node [244] lose
+2017-02-08 05:32:38+0800 [BilateralBroker,245,127.0.0.1] node [245] lose
+2017-02-08 05:42:38+0800 [BilateralBroker,246,127.0.0.1] node [246] lose
+2017-02-08 05:52:39+0800 [BilateralBroker,247,127.0.0.1] node [247] lose
+2017-02-08 06:02:40+0800 [BilateralBroker,248,127.0.0.1] node [248] lose
+2017-02-08 06:12:40+0800 [BilateralBroker,249,127.0.0.1] node [249] lose
+2017-02-08 06:22:41+0800 [BilateralBroker,250,127.0.0.1] node [250] lose
+2017-02-08 06:32:41+0800 [BilateralBroker,251,127.0.0.1] node [251] lose
+2017-02-08 06:42:42+0800 [BilateralBroker,252,127.0.0.1] node [252] lose
+2017-02-08 06:52:42+0800 [BilateralBroker,253,127.0.0.1] node [253] lose
+2017-02-08 07:02:43+0800 [BilateralBroker,254,127.0.0.1] node [254] lose
+2017-02-08 07:12:43+0800 [BilateralBroker,255,127.0.0.1] node [255] lose
+2017-02-08 07:22:44+0800 [BilateralBroker,256,127.0.0.1] node [256] lose
+2017-02-08 07:32:44+0800 [BilateralBroker,257,127.0.0.1] node [257] lose
+2017-02-08 07:42:45+0800 [BilateralBroker,258,127.0.0.1] node [258] lose
+2017-02-08 07:52:45+0800 [BilateralBroker,259,127.0.0.1] node [259] lose
+2017-02-08 08:02:46+0800 [BilateralBroker,260,127.0.0.1] node [260] lose
+2017-02-08 08:12:47+0800 [BilateralBroker,261,127.0.0.1] node [261] lose
+2017-02-08 08:22:47+0800 [BilateralBroker,262,127.0.0.1] node [262] lose
+2017-02-08 08:32:48+0800 [BilateralBroker,263,127.0.0.1] node [263] lose
+2017-02-08 08:42:48+0800 [BilateralBroker,264,127.0.0.1] node [264] lose
+2017-02-08 08:52:49+0800 [BilateralBroker,265,127.0.0.1] node [265] lose
+2017-02-08 09:02:49+0800 [BilateralBroker,266,127.0.0.1] node [266] lose
+2017-02-08 09:12:50+0800 [BilateralBroker,267,127.0.0.1] node [267] lose
+2017-02-08 09:22:50+0800 [BilateralBroker,268,127.0.0.1] node [268] lose
+2017-02-08 09:32:51+0800 [BilateralBroker,269,127.0.0.1] node [269] lose
+2017-02-08 09:42:51+0800 [BilateralBroker,270,127.0.0.1] node [270] lose
+2017-02-08 09:52:52+0800 [BilateralBroker,271,127.0.0.1] node [271] lose
+2017-02-08 10:02:53+0800 [BilateralBroker,272,127.0.0.1] node [272] lose
+2017-02-08 10:12:53+0800 [BilateralBroker,273,127.0.0.1] node [273] lose
+2017-02-08 10:22:54+0800 [BilateralBroker,274,127.0.0.1] node [274] lose
+2017-02-08 10:32:54+0800 [BilateralBroker,275,127.0.0.1] node [275] lose
+2017-02-08 10:42:55+0800 [BilateralBroker,276,127.0.0.1] node [276] lose
+2017-02-08 10:52:55+0800 [BilateralBroker,277,127.0.0.1] node [277] lose
+2017-02-09 08:46:27+0800 [BilateralBroker,278,127.0.0.1] node [278] lose
+2017-02-09 08:56:27+0800 [BilateralBroker,279,127.0.0.1] node [279] lose
+2017-02-09 09:06:28+0800 [BilateralBroker,280,127.0.0.1] node [280] lose
+2017-02-09 09:16:28+0800 [BilateralBroker,281,127.0.0.1] node [281] lose
+2017-02-09 09:26:29+0800 [BilateralBroker,282,127.0.0.1] node [282] lose
+2017-02-09 09:36:29+0800 [BilateralBroker,283,127.0.0.1] node [283] lose
+2017-02-09 09:46:30+0800 [BilateralBroker,284,127.0.0.1] node [284] lose
+2017-02-09 09:56:30+0800 [BilateralBroker,285,127.0.0.1] node [285] lose
+2017-02-09 10:06:31+0800 [BilateralBroker,286,127.0.0.1] node [286] lose
+2017-02-09 10:16:32+0800 [BilateralBroker,287,127.0.0.1] node [287] lose
+2017-02-09 10:26:32+0800 [BilateralBroker,288,127.0.0.1] node [288] lose
+2017-02-09 10:36:32+0800 [BilateralBroker,289,127.0.0.1] node [289] lose
+2017-02-09 10:46:33+0800 [BilateralBroker,290,127.0.0.1] node [290] lose
+2017-02-09 10:56:34+0800 [BilateralBroker,291,127.0.0.1] node [291] lose
+2017-02-09 11:06:34+0800 [BilateralBroker,292,127.0.0.1] node [292] lose
+2017-02-09 11:16:35+0800 [BilateralBroker,293,127.0.0.1] node [293] lose
+2017-02-09 11:26:35+0800 [BilateralBroker,294,127.0.0.1] node [294] lose
+2017-02-09 11:36:35+0800 [BilateralBroker,295,127.0.0.1] node [295] lose
+2017-02-09 11:46:36+0800 [BilateralBroker,296,127.0.0.1] node [296] lose
+2017-02-09 11:56:37+0800 [BilateralBroker,297,127.0.0.1] node [297] lose
+2017-02-09 12:06:37+0800 [BilateralBroker,298,127.0.0.1] node [298] lose
+2017-02-09 12:16:37+0800 [BilateralBroker,299,127.0.0.1] node [299] lose
+2017-02-09 12:26:38+0800 [BilateralBroker,300,127.0.0.1] node [300] lose
+2017-02-09 12:36:38+0800 [BilateralBroker,301,127.0.0.1] node [301] lose
+2017-02-09 12:46:39+0800 [BilateralBroker,302,127.0.0.1] node [302] lose
+2017-02-09 12:56:40+0800 [BilateralBroker,303,127.0.0.1] node [303] lose
+2017-02-09 13:06:40+0800 [BilateralBroker,304,127.0.0.1] node [304] lose
+2017-02-09 13:16:41+0800 [BilateralBroker,305,127.0.0.1] node [305] lose
+2017-02-09 13:26:41+0800 [BilateralBroker,306,127.0.0.1] node [306] lose
+2017-02-09 13:36:42+0800 [BilateralBroker,307,127.0.0.1] node [307] lose
+2017-02-09 13:46:42+0800 [BilateralBroker,308,127.0.0.1] node [308] lose
+2017-02-09 13:56:43+0800 [BilateralBroker,309,127.0.0.1] node [309] lose
+2017-02-09 14:06:43+0800 [BilateralBroker,310,127.0.0.1] node [310] lose
+2017-02-09 14:16:44+0800 [BilateralBroker,311,127.0.0.1] node [311] lose
+2017-02-09 14:26:44+0800 [BilateralBroker,312,127.0.0.1] node [312] lose
+2017-02-09 14:36:45+0800 [BilateralBroker,313,127.0.0.1] node [313] lose
+2017-02-09 14:46:46+0800 [BilateralBroker,314,127.0.0.1] node [314] lose
+2017-02-09 14:56:46+0800 [BilateralBroker,315,127.0.0.1] node [315] lose
+2017-02-09 15:06:47+0800 [BilateralBroker,316,127.0.0.1] node [316] lose
+2017-02-09 15:16:47+0800 [BilateralBroker,317,127.0.0.1] node [317] lose
+2017-02-09 15:26:48+0800 [BilateralBroker,318,127.0.0.1] node [318] lose
+2017-02-09 15:36:49+0800 [BilateralBroker,319,127.0.0.1] node [319] lose
+2017-02-09 15:46:49+0800 [BilateralBroker,320,127.0.0.1] node [320] lose
+2017-02-09 15:56:50+0800 [BilateralBroker,321,127.0.0.1] node [321] lose
+2017-02-09 16:06:51+0800 [BilateralBroker,322,127.0.0.1] node [322] lose
+2017-02-09 16:16:51+0800 [BilateralBroker,323,127.0.0.1] node [323] lose
+2017-02-09 16:26:52+0800 [BilateralBroker,324,127.0.0.1] node [324] lose
+2017-02-09 16:36:52+0800 [BilateralBroker,325,127.0.0.1] node [325] lose
+2017-02-09 16:46:53+0800 [BilateralBroker,326,127.0.0.1] node [326] lose
+2017-02-09 16:56:53+0800 [BilateralBroker,327,127.0.0.1] node [327] lose
+2017-02-09 17:06:54+0800 [BilateralBroker,328,127.0.0.1] node [328] lose
+2017-02-09 17:16:55+0800 [BilateralBroker,329,127.0.0.1] node [329] lose
+2017-02-09 17:26:55+0800 [BilateralBroker,330,127.0.0.1] node [330] lose
+2017-02-09 17:36:56+0800 [BilateralBroker,331,127.0.0.1] node [331] lose
+2017-02-09 17:46:56+0800 [BilateralBroker,332,127.0.0.1] node [332] lose
+2017-02-09 17:56:57+0800 [BilateralBroker,333,127.0.0.1] node [333] lose
+2017-02-09 18:06:57+0800 [BilateralBroker,334,127.0.0.1] node [334] lose
+2017-02-09 18:16:58+0800 [BilateralBroker,335,127.0.0.1] node [335] lose
+2017-02-09 18:26:58+0800 [BilateralBroker,336,127.0.0.1] node [336] lose
+2017-02-09 18:36:59+0800 [BilateralBroker,337,127.0.0.1] node [337] lose
+2017-02-09 18:46:59+0800 [BilateralBroker,338,127.0.0.1] node [338] lose
+2017-02-09 18:57:00+0800 [BilateralBroker,339,127.0.0.1] node [339] lose
+2017-02-09 19:07:00+0800 [BilateralBroker,340,127.0.0.1] node [340] lose
+2017-02-09 19:17:01+0800 [BilateralBroker,341,127.0.0.1] node [341] lose
+2017-02-09 19:27:01+0800 [BilateralBroker,342,127.0.0.1] node [342] lose
+2017-02-09 19:37:02+0800 [BilateralBroker,343,127.0.0.1] node [343] lose
+2017-02-09 19:47:02+0800 [BilateralBroker,344,127.0.0.1] node [344] lose
+2017-02-09 19:57:03+0800 [BilateralBroker,345,127.0.0.1] node [345] lose
+2017-02-09 20:07:03+0800 [BilateralBroker,346,127.0.0.1] node [346] lose
+2017-02-09 20:17:04+0800 [BilateralBroker,347,127.0.0.1] node [347] lose
+2017-02-09 20:27:04+0800 [BilateralBroker,348,127.0.0.1] node [348] lose
+2017-02-09 20:37:05+0800 [BilateralBroker,349,127.0.0.1] node [349] lose
+2017-02-09 20:47:06+0800 [BilateralBroker,350,127.0.0.1] node [350] lose
+2017-02-09 20:57:06+0800 [BilateralBroker,351,127.0.0.1] node [351] lose
+2017-02-09 21:07:07+0800 [BilateralBroker,352,127.0.0.1] node [352] lose
+2017-02-09 21:17:07+0800 [BilateralBroker,353,127.0.0.1] node [353] lose
+2017-02-09 21:27:08+0800 [BilateralBroker,354,127.0.0.1] node [354] lose
+2017-02-09 21:37:08+0800 [BilateralBroker,355,127.0.0.1] node [355] lose
+2017-02-09 21:47:09+0800 [BilateralBroker,356,127.0.0.1] node [356] lose
+2017-02-09 21:57:09+0800 [BilateralBroker,357,127.0.0.1] node [357] lose
+2017-02-09 22:07:10+0800 [BilateralBroker,358,127.0.0.1] node [358] lose
+2017-02-09 22:17:10+0800 [BilateralBroker,359,127.0.0.1] node [359] lose
+2017-02-09 22:27:11+0800 [BilateralBroker,360,127.0.0.1] node [360] lose
+2017-02-09 22:37:11+0800 [BilateralBroker,361,127.0.0.1] node [361] lose
+2017-02-09 22:47:12+0800 [BilateralBroker,362,127.0.0.1] node [362] lose
+2017-02-09 22:57:12+0800 [BilateralBroker,363,127.0.0.1] node [363] lose
+2017-02-09 23:07:13+0800 [BilateralBroker,364,127.0.0.1] node [364] lose
+2017-02-09 23:17:14+0800 [BilateralBroker,365,127.0.0.1] node [365] lose
+2017-02-09 23:27:14+0800 [BilateralBroker,366,127.0.0.1] node [366] lose
+2017-02-09 23:37:15+0800 [BilateralBroker,367,127.0.0.1] node [367] lose
+2017-02-09 23:47:15+0800 [BilateralBroker,368,127.0.0.1] node [368] lose
+2017-02-09 23:57:16+0800 [BilateralBroker,369,127.0.0.1] node [369] lose
+2017-02-10 00:07:16+0800 [BilateralBroker,370,127.0.0.1] node [370] lose
+2017-02-10 00:17:17+0800 [BilateralBroker,371,127.0.0.1] node [371] lose
+2017-02-10 00:27:18+0800 [BilateralBroker,372,127.0.0.1] node [372] lose
+2017-02-10 00:37:18+0800 [BilateralBroker,373,127.0.0.1] node [373] lose
+2017-02-10 00:47:19+0800 [BilateralBroker,374,127.0.0.1] node [374] lose
+2017-02-10 00:57:19+0800 [BilateralBroker,375,127.0.0.1] node [375] lose
+2017-02-10 01:07:20+0800 [BilateralBroker,376,127.0.0.1] node [376] lose
+2017-02-10 01:17:20+0800 [BilateralBroker,377,127.0.0.1] node [377] lose
+2017-02-10 01:27:21+0800 [BilateralBroker,378,127.0.0.1] node [378] lose
+2017-02-10 01:37:21+0800 [BilateralBroker,379,127.0.0.1] node [379] lose
+2017-02-10 01:47:22+0800 [BilateralBroker,380,127.0.0.1] node [380] lose
+2017-02-10 01:57:22+0800 [BilateralBroker,381,127.0.0.1] node [381] lose
+2017-02-10 02:07:23+0800 [BilateralBroker,382,127.0.0.1] node [382] lose
+2017-02-10 02:17:23+0800 [BilateralBroker,383,127.0.0.1] node [383] lose
+2017-02-10 02:27:24+0800 [BilateralBroker,384,127.0.0.1] node [384] lose
+2017-02-10 02:37:24+0800 [BilateralBroker,385,127.0.0.1] node [385] lose
+2017-02-10 02:47:25+0800 [BilateralBroker,386,127.0.0.1] node [386] lose
+2017-02-10 02:57:26+0800 [BilateralBroker,387,127.0.0.1] node [387] lose
+2017-02-10 03:07:27+0800 [BilateralBroker,388,127.0.0.1] node [388] lose
+2017-02-10 03:17:27+0800 [BilateralBroker,389,127.0.0.1] node [389] lose
+2017-02-10 03:27:28+0800 [BilateralBroker,390,127.0.0.1] node [390] lose
+2017-02-10 03:37:28+0800 [BilateralBroker,391,127.0.0.1] node [391] lose
+2017-02-10 03:47:29+0800 [BilateralBroker,392,127.0.0.1] node [392] lose
+2017-02-10 03:57:29+0800 [BilateralBroker,393,127.0.0.1] node [393] lose
+2017-02-10 04:07:30+0800 [BilateralBroker,394,127.0.0.1] node [394] lose
+2017-02-10 04:17:30+0800 [BilateralBroker,395,127.0.0.1] node [395] lose
+2017-02-10 04:27:31+0800 [BilateralBroker,396,127.0.0.1] node [396] lose
+2017-02-10 04:37:31+0800 [BilateralBroker,397,127.0.0.1] node [397] lose
+2017-02-10 04:47:32+0800 [BilateralBroker,398,127.0.0.1] node [398] lose
+2017-02-10 04:57:32+0800 [BilateralBroker,399,127.0.0.1] node [399] lose
+2017-02-10 05:07:33+0800 [BilateralBroker,400,127.0.0.1] node [400] lose
+2017-02-10 05:17:33+0800 [BilateralBroker,401,127.0.0.1] node [401] lose
+2017-02-10 05:27:34+0800 [BilateralBroker,402,127.0.0.1] node [402] lose
+2017-02-10 05:37:34+0800 [BilateralBroker,403,127.0.0.1] node [403] lose
+2017-02-10 05:47:35+0800 [BilateralBroker,404,127.0.0.1] node [404] lose
+2017-02-10 05:57:35+0800 [BilateralBroker,405,127.0.0.1] node [405] lose
+2017-02-10 06:07:36+0800 [BilateralBroker,406,127.0.0.1] node [406] lose
+2017-02-10 06:17:37+0800 [BilateralBroker,407,127.0.0.1] node [407] lose
+2017-02-10 06:27:37+0800 [BilateralBroker,408,127.0.0.1] node [408] lose
+2017-02-10 06:37:38+0800 [BilateralBroker,409,127.0.0.1] node [409] lose
+2017-02-10 06:47:38+0800 [BilateralBroker,410,127.0.0.1] node [410] lose
+2017-02-10 06:57:39+0800 [BilateralBroker,411,127.0.0.1] node [411] lose
+2017-02-10 07:07:39+0800 [BilateralBroker,412,127.0.0.1] node [412] lose
+2017-02-10 07:17:40+0800 [BilateralBroker,413,127.0.0.1] node [413] lose
+2017-02-10 07:27:40+0800 [BilateralBroker,414,127.0.0.1] node [414] lose
+2017-02-10 07:37:41+0800 [BilateralBroker,415,127.0.0.1] node [415] lose
+2017-02-10 07:47:41+0800 [BilateralBroker,416,127.0.0.1] node [416] lose
+2017-02-10 07:57:42+0800 [BilateralBroker,417,127.0.0.1] node [417] lose
+2017-02-10 08:07:42+0800 [BilateralBroker,418,127.0.0.1] node [418] lose
+2017-02-10 08:17:43+0800 [BilateralBroker,419,127.0.0.1] node [419] lose
+2017-02-10 08:27:43+0800 [BilateralBroker,420,127.0.0.1] node [420] lose
+2017-02-10 08:37:44+0800 [BilateralBroker,421,127.0.0.1] node [421] lose
+2017-02-10 08:47:44+0800 [BilateralBroker,422,127.0.0.1] node [422] lose
+2017-02-10 08:57:45+0800 [BilateralBroker,423,127.0.0.1] node [423] lose
+2017-02-10 09:07:45+0800 [BilateralBroker,424,127.0.0.1] node [424] lose
+2017-02-10 09:17:46+0800 [BilateralBroker,425,127.0.0.1] node [425] lose
+2017-02-10 09:27:46+0800 [BilateralBroker,426,127.0.0.1] node [426] lose
+2017-02-10 09:37:47+0800 [BilateralBroker,427,127.0.0.1] node [427] lose
+2017-02-10 09:47:48+0800 [BilateralBroker,428,127.0.0.1] node [428] lose
+2017-02-10 09:57:48+0800 [BilateralBroker,429,127.0.0.1] node [429] lose
+2017-02-10 10:07:49+0800 [BilateralBroker,430,127.0.0.1] node [430] lose
+2017-02-10 10:17:49+0800 [BilateralBroker,431,127.0.0.1] node [431] lose
+2017-02-10 10:27:50+0800 [BilateralBroker,432,127.0.0.1] node [432] lose
+2017-02-10 10:37:50+0800 [BilateralBroker,433,127.0.0.1] node [433] lose
+2017-02-10 10:47:51+0800 [BilateralBroker,434,127.0.0.1] node [434] lose
+2017-02-10 10:57:51+0800 [BilateralBroker,435,127.0.0.1] node [435] lose
+2017-02-10 11:07:52+0800 [BilateralBroker,436,127.0.0.1] node [436] lose
+2017-02-10 11:17:52+0800 [BilateralBroker,437,127.0.0.1] node [437] lose
+2017-02-10 11:27:53+0800 [BilateralBroker,438,127.0.0.1] node [438] lose
+2017-02-10 11:37:53+0800 [BilateralBroker,439,127.0.0.1] node [439] lose
+2017-02-10 11:47:54+0800 [BilateralBroker,440,127.0.0.1] node [440] lose
+2017-02-10 11:57:54+0800 [BilateralBroker,441,127.0.0.1] node [441] lose
+2017-02-10 12:07:55+0800 [BilateralBroker,442,127.0.0.1] node [442] lose
+2017-02-10 12:17:55+0800 [BilateralBroker,443,127.0.0.1] node [443] lose
+2017-02-10 12:27:56+0800 [BilateralBroker,444,127.0.0.1] node [444] lose
+2017-02-10 12:37:56+0800 [BilateralBroker,445,127.0.0.1] node [445] lose
+2017-02-10 12:47:57+0800 [BilateralBroker,446,127.0.0.1] node [446] lose
+2017-02-10 12:57:57+0800 [BilateralBroker,447,127.0.0.1] node [447] lose
+2017-02-10 13:07:58+0800 [BilateralBroker,448,127.0.0.1] node [448] lose
+2017-02-10 13:17:59+0800 [BilateralBroker,449,127.0.0.1] node [449] lose
+2017-02-10 13:27:59+0800 [BilateralBroker,450,127.0.0.1] node [450] lose
+2017-02-10 13:38:00+0800 [BilateralBroker,451,127.0.0.1] node [451] lose
+2017-02-10 13:48:00+0800 [BilateralBroker,452,127.0.0.1] node [452] lose
+2017-02-10 13:58:01+0800 [BilateralBroker,453,127.0.0.1] node [453] lose
+2017-02-10 14:08:01+0800 [BilateralBroker,454,127.0.0.1] node [454] lose
+2017-02-10 14:18:02+0800 [BilateralBroker,455,127.0.0.1] node [455] lose
+2017-02-10 14:28:02+0800 [BilateralBroker,456,127.0.0.1] node [456] lose
+2017-02-10 14:38:03+0800 [BilateralBroker,457,127.0.0.1] node [457] lose
+2017-02-10 14:48:04+0800 [BilateralBroker,458,127.0.0.1] node [458] lose
+2017-02-10 14:58:05+0800 [BilateralBroker,459,127.0.0.1] node [459] lose
+2017-02-10 15:08:05+0800 [BilateralBroker,460,127.0.0.1] node [460] lose
+2017-02-10 15:18:06+0800 [BilateralBroker,461,127.0.0.1] node [461] lose
+2017-02-10 15:28:06+0800 [BilateralBroker,462,127.0.0.1] node [462] lose
+2017-02-10 15:38:07+0800 [BilateralBroker,463,127.0.0.1] node [463] lose
+2017-02-10 15:48:07+0800 [BilateralBroker,464,127.0.0.1] node [464] lose
+2017-02-10 15:58:08+0800 [BilateralBroker,465,127.0.0.1] node [465] lose
+2017-02-10 16:08:08+0800 [BilateralBroker,466,127.0.0.1] node [466] lose
+2017-02-10 16:18:09+0800 [BilateralBroker,467,127.0.0.1] node [467] lose
+2017-02-10 16:28:09+0800 [BilateralBroker,468,127.0.0.1] node [468] lose
+2017-02-10 16:38:10+0800 [BilateralBroker,469,127.0.0.1] node [469] lose
+2017-02-10 16:48:10+0800 [BilateralBroker,470,127.0.0.1] node [470] lose
+2017-02-10 16:58:11+0800 [BilateralBroker,471,127.0.0.1] node [471] lose
+2017-02-10 17:08:11+0800 [BilateralBroker,472,127.0.0.1] node [472] lose
+2017-02-10 17:18:12+0800 [BilateralBroker,473,127.0.0.1] node [473] lose
+2017-02-10 17:28:13+0800 [BilateralBroker,474,127.0.0.1] node [474] lose
+2017-02-10 17:38:13+0800 [BilateralBroker,475,127.0.0.1] node [475] lose
+2017-02-10 17:48:14+0800 [BilateralBroker,476,127.0.0.1] node [476] lose
+2017-02-10 17:58:14+0800 [BilateralBroker,477,127.0.0.1] node [477] lose
+2017-02-10 18:08:15+0800 [BilateralBroker,478,127.0.0.1] node [478] lose
+2017-02-10 18:18:15+0800 [BilateralBroker,479,127.0.0.1] node [479] lose
+2017-02-10 18:28:16+0800 [BilateralBroker,480,127.0.0.1] node [480] lose
+2017-02-10 18:38:16+0800 [BilateralBroker,481,127.0.0.1] node [481] lose
+2017-02-10 18:48:17+0800 [BilateralBroker,482,127.0.0.1] node [482] lose
+2017-02-10 18:58:17+0800 [BilateralBroker,483,127.0.0.1] node [483] lose
+2017-02-10 19:08:18+0800 [BilateralBroker,484,127.0.0.1] node [484] lose
+2017-02-10 19:18:18+0800 [BilateralBroker,485,127.0.0.1] node [485] lose
+2017-02-10 19:28:19+0800 [BilateralBroker,486,127.0.0.1] node [486] lose
+2017-02-10 19:38:19+0800 [BilateralBroker,487,127.0.0.1] node [487] lose
+2017-02-10 19:48:20+0800 [BilateralBroker,488,127.0.0.1] node [488] lose
+2017-02-10 19:58:21+0800 [BilateralBroker,489,127.0.0.1] node [489] lose
+2017-02-10 20:08:21+0800 [BilateralBroker,490,127.0.0.1] node [490] lose
+2017-02-10 20:18:22+0800 [BilateralBroker,491,127.0.0.1] node [491] lose
+2017-02-10 20:28:22+0800 [BilateralBroker,492,127.0.0.1] node [492] lose
+2017-02-10 20:38:23+0800 [BilateralBroker,493,127.0.0.1] node [493] lose
+2017-02-10 20:48:23+0800 [BilateralBroker,494,127.0.0.1] node [494] lose
+2017-02-10 20:58:24+0800 [BilateralBroker,495,127.0.0.1] node [495] lose
+2017-02-10 21:08:24+0800 [BilateralBroker,496,127.0.0.1] node [496] lose
+2017-02-10 21:18:25+0800 [BilateralBroker,497,127.0.0.1] node [497] lose
+2017-02-10 21:28:25+0800 [BilateralBroker,498,127.0.0.1] node [498] lose
+2017-02-10 21:38:26+0800 [BilateralBroker,499,127.0.0.1] node [499] lose
+2017-02-10 21:48:26+0800 [BilateralBroker,500,127.0.0.1] node [500] lose
+2017-02-10 21:58:27+0800 [BilateralBroker,501,127.0.0.1] node [501] lose
+2017-02-10 22:08:28+0800 [BilateralBroker,502,127.0.0.1] node [502] lose
+2017-02-10 22:18:28+0800 [BilateralBroker,503,127.0.0.1] node [503] lose
+2017-02-10 22:28:29+0800 [BilateralBroker,504,127.0.0.1] node [504] lose
+2017-02-10 22:38:29+0800 [BilateralBroker,505,127.0.0.1] node [505] lose
+2017-02-10 22:48:30+0800 [BilateralBroker,506,127.0.0.1] node [506] lose
+2017-02-10 22:58:30+0800 [BilateralBroker,507,127.0.0.1] node [507] lose
+2017-02-10 23:08:31+0800 [BilateralBroker,508,127.0.0.1] node [508] lose
+2017-02-10 23:18:31+0800 [BilateralBroker,509,127.0.0.1] node [509] lose
+2017-02-10 23:28:32+0800 [BilateralBroker,510,127.0.0.1] node [510] lose
+2017-02-10 23:38:33+0800 [BilateralBroker,511,127.0.0.1] node [511] lose
+2017-02-10 23:48:33+0800 [BilateralBroker,512,127.0.0.1] node [512] lose
+2017-02-10 23:58:34+0800 [BilateralBroker,513,127.0.0.1] node [513] lose
+2017-02-11 00:08:34+0800 [BilateralBroker,514,127.0.0.1] node [514] lose
+2017-02-11 00:18:35+0800 [BilateralBroker,515,127.0.0.1] node [515] lose
+2017-02-11 00:28:35+0800 [BilateralBroker,516,127.0.0.1] node [516] lose
+2017-02-11 00:38:36+0800 [BilateralBroker,517,127.0.0.1] node [517] lose
+2017-02-11 00:48:36+0800 [BilateralBroker,518,127.0.0.1] node [518] lose
+2017-02-11 00:58:37+0800 [BilateralBroker,519,127.0.0.1] node [519] lose
+2017-02-11 01:08:37+0800 [BilateralBroker,520,127.0.0.1] node [520] lose
+2017-02-11 01:18:38+0800 [BilateralBroker,521,127.0.0.1] node [521] lose
+2017-02-11 01:28:39+0800 [BilateralBroker,522,127.0.0.1] node [522] lose
+2017-02-11 01:38:39+0800 [BilateralBroker,523,127.0.0.1] node [523] lose
+2017-02-11 01:48:40+0800 [BilateralBroker,524,127.0.0.1] node [524] lose
+2017-02-11 01:58:40+0800 [BilateralBroker,525,127.0.0.1] node [525] lose
+2017-02-11 02:08:41+0800 [BilateralBroker,526,127.0.0.1] node [526] lose
+2017-02-11 02:18:41+0800 [BilateralBroker,527,127.0.0.1] node [527] lose
+2017-02-11 02:28:42+0800 [BilateralBroker,528,127.0.0.1] node [528] lose
+2017-02-11 02:38:42+0800 [BilateralBroker,529,127.0.0.1] node [529] lose
+2017-02-11 02:48:43+0800 [BilateralBroker,530,127.0.0.1] node [530] lose
+2017-02-18 10:22:11+0800 [BilateralBroker,531,14.18.28.10] node [531] lose
+2017-02-18 10:22:16+0800 [BilateralBroker,532,14.18.28.10] node [532] lose
+2017-02-18 10:22:21+0800 [BilateralBroker,533,14.18.28.10] node [533] lose
+2017-02-18 10:22:26+0800 [BilateralBroker,534,14.18.28.10] node [534] lose
+2017-02-18 10:22:26+0800 [BilateralBroker,535,14.18.28.10] The client selected a protocol the server didn't suggest and doesn't know: disconnecting.
+2017-02-18 10:22:26+0800 [BilateralBroker,535,14.18.28.10] Unhandled Error
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/python/log.py", line 101, in callWithLogger
+	    return callWithContext({"system": lp}, func, *args, **kw)
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/python/log.py", line 84, in callWithContext
+	    return context.call({ILogContext: newCtx}, func, *args, **kw)
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/python/context.py", line 118, in callWithContext
+	    return self.currentContext().callWithContext(ctx, func, *args, **kw)
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/python/context.py", line 81, in callWithContext
+	    return func(*args,**kw)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/internet/posixbase.py", line 611, in _doReadOrWrite
+	    why = selectable.doRead()
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/internet/tcp.py", line 209, in doRead
+	    return self._dataReceived(data)
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/internet/tcp.py", line 215, in _dataReceived
+	    rval = self.protocol.dataReceived(data)
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/spread/banana.py", line 240, in dataReceived
+	    raise NotImplementedError(("Invalid Type Byte %r" % (typebyte,)))
+	exceptions.NotImplementedError: Invalid Type Byte '\xfe'
+	
+2017-02-18 10:22:26+0800 [BilateralBroker,535,14.18.28.10] node [535] lose
+2017-02-18 10:22:31+0800 [BilateralBroker,536,14.18.28.10] node [536] lose
+2017-02-18 10:22:36+0800 [BilateralBroker,537,14.18.28.10] node [537] lose
+2017-02-18 10:22:44+0800 [BilateralBroker,538,14.18.28.10] node [538] lose
+2017-02-18 10:22:44+0800 [BilateralBroker,539,14.18.28.10] Unhandled Error
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/python/log.py", line 101, in callWithLogger
+	    return callWithContext({"system": lp}, func, *args, **kw)
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/python/log.py", line 84, in callWithContext
+	    return context.call({ILogContext: newCtx}, func, *args, **kw)
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/python/context.py", line 118, in callWithContext
+	    return self.currentContext().callWithContext(ctx, func, *args, **kw)
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/python/context.py", line 81, in callWithContext
+	    return func(*args,**kw)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/internet/posixbase.py", line 611, in _doReadOrWrite
+	    why = selectable.doRead()
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/internet/tcp.py", line 209, in doRead
+	    return self._dataReceived(data)
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/internet/tcp.py", line 215, in _dataReceived
+	    rval = self.protocol.dataReceived(data)
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/spread/banana.py", line 240, in dataReceived
+	    raise NotImplementedError(("Invalid Type Byte %r" % (typebyte,)))
+	exceptions.NotImplementedError: Invalid Type Byte '\xd7'
+	
+2017-02-18 10:22:44+0800 [BilateralBroker,539,14.18.28.10] node [539] lose
+2017-02-18 10:22:44+0800 [BilateralBroker,540,14.18.28.10] Unhandled Error
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/python/log.py", line 101, in callWithLogger
+	    return callWithContext({"system": lp}, func, *args, **kw)
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/python/log.py", line 84, in callWithContext
+	    return context.call({ILogContext: newCtx}, func, *args, **kw)
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/python/context.py", line 118, in callWithContext
+	    return self.currentContext().callWithContext(ctx, func, *args, **kw)
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/python/context.py", line 81, in callWithContext
+	    return func(*args,**kw)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/internet/posixbase.py", line 611, in _doReadOrWrite
+	    why = selectable.doRead()
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/internet/tcp.py", line 209, in doRead
+	    return self._dataReceived(data)
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/internet/tcp.py", line 215, in _dataReceived
+	    rval = self.protocol.dataReceived(data)
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/spread/banana.py", line 240, in dataReceived
+	    raise NotImplementedError(("Invalid Type Byte %r" % (typebyte,)))
+	exceptions.NotImplementedError: Invalid Type Byte '\xa7'
+	
+2017-02-18 10:22:44+0800 [BilateralBroker,540,14.18.28.10] node [540] lose
+2017-02-18 10:22:44+0800 [BilateralBroker,541,14.18.28.10] The client selected a protocol the server didn't suggest and doesn't know: disconnecting.
+2017-02-18 10:22:44+0800 [BilateralBroker,541,14.18.28.10] The client selected a protocol the server didn't suggest and doesn't know: disconnecting.
+2017-02-18 10:22:44+0800 [BilateralBroker,541,14.18.28.10] Unhandled Error
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/python/log.py", line 101, in callWithLogger
+	    return callWithContext({"system": lp}, func, *args, **kw)
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/python/log.py", line 84, in callWithContext
+	    return context.call({ILogContext: newCtx}, func, *args, **kw)
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/python/context.py", line 118, in callWithContext
+	    return self.currentContext().callWithContext(ctx, func, *args, **kw)
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/python/context.py", line 81, in callWithContext
+	    return func(*args,**kw)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/internet/posixbase.py", line 611, in _doReadOrWrite
+	    why = selectable.doRead()
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/internet/tcp.py", line 209, in doRead
+	    return self._dataReceived(data)
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/internet/tcp.py", line 215, in _dataReceived
+	    rval = self.protocol.dataReceived(data)
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/spread/banana.py", line 240, in dataReceived
+	    raise NotImplementedError(("Invalid Type Byte %r" % (typebyte,)))
+	exceptions.NotImplementedError: Invalid Type Byte '\xa1'
+	
+2017-02-18 10:22:44+0800 [BilateralBroker,541,14.18.28.10] node [541] lose
+2017-02-18 10:22:44+0800 [BilateralBroker,542,14.18.28.10] Unhandled Error
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/python/log.py", line 101, in callWithLogger
+	    return callWithContext({"system": lp}, func, *args, **kw)
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/python/log.py", line 84, in callWithContext
+	    return context.call({ILogContext: newCtx}, func, *args, **kw)
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/python/context.py", line 118, in callWithContext
+	    return self.currentContext().callWithContext(ctx, func, *args, **kw)
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/python/context.py", line 81, in callWithContext
+	    return func(*args,**kw)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/internet/posixbase.py", line 611, in _doReadOrWrite
+	    why = selectable.doRead()
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/internet/tcp.py", line 209, in doRead
+	    return self._dataReceived(data)
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/internet/tcp.py", line 215, in _dataReceived
+	    rval = self.protocol.dataReceived(data)
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/spread/banana.py", line 240, in dataReceived
+	    raise NotImplementedError(("Invalid Type Byte %r" % (typebyte,)))
+	exceptions.NotImplementedError: Invalid Type Byte '\xa4'
+	
+2017-02-18 10:22:44+0800 [BilateralBroker,542,14.18.28.10] node [542] lose
+2017-02-18 10:22:49+0800 [BilateralBroker,543,14.18.28.10] node [543] lose
+2017-02-18 10:22:54+0800 [BilateralBroker,544,14.18.28.10] node [544] lose
+2017-02-18 10:22:59+0800 [BilateralBroker,545,14.18.28.10] node [545] lose
+2017-02-18 10:22:59+0800 [BilateralBroker,546,14.18.28.10] The client selected a protocol the server didn't suggest and doesn't know: disconnecting.
+2017-02-18 10:22:59+0800 [BilateralBroker,546,14.18.28.10] The client selected a protocol the server didn't suggest and doesn't know: disconnecting.
+2017-02-18 10:22:59+0800 [BilateralBroker,546,14.18.28.10] Unhandled Error
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/python/log.py", line 101, in callWithLogger
+	    return callWithContext({"system": lp}, func, *args, **kw)
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/python/log.py", line 84, in callWithContext
+	    return context.call({ILogContext: newCtx}, func, *args, **kw)
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/python/context.py", line 118, in callWithContext
+	    return self.currentContext().callWithContext(ctx, func, *args, **kw)
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/python/context.py", line 81, in callWithContext
+	    return func(*args,**kw)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/internet/posixbase.py", line 611, in _doReadOrWrite
+	    why = selectable.doRead()
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/internet/tcp.py", line 209, in doRead
+	    return self._dataReceived(data)
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/internet/tcp.py", line 215, in _dataReceived
+	    rval = self.protocol.dataReceived(data)
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/spread/banana.py", line 226, in dataReceived
+	    item = self.incomingVocabulary[num]
+	exceptions.KeyError: 153218729459760377120000L
+	
+2017-02-18 10:22:59+0800 [BilateralBroker,546,14.18.28.10] node [546] lose
+2017-02-18 10:22:59+0800 [BilateralBroker,547,14.18.28.10] Unhandled Error
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/python/log.py", line 101, in callWithLogger
+	    return callWithContext({"system": lp}, func, *args, **kw)
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/python/log.py", line 84, in callWithContext
+	    return context.call({ILogContext: newCtx}, func, *args, **kw)
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/python/context.py", line 118, in callWithContext
+	    return self.currentContext().callWithContext(ctx, func, *args, **kw)
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/python/context.py", line 81, in callWithContext
+	    return func(*args,**kw)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/internet/posixbase.py", line 611, in _doReadOrWrite
+	    why = selectable.doRead()
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/internet/tcp.py", line 209, in doRead
+	    return self._dataReceived(data)
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/internet/tcp.py", line 215, in _dataReceived
+	    rval = self.protocol.dataReceived(data)
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/spread/banana.py", line 195, in dataReceived
+	    raise BananaError("Security precaution: List too long.")
+	twisted.spread.banana.BananaError: Security precaution: List too long.
+	
+2017-02-18 10:22:59+0800 [BilateralBroker,547,14.18.28.10] node [547] lose
+2017-02-18 10:22:59+0800 [BilateralBroker,548,14.18.28.10] Unhandled Error
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/python/log.py", line 101, in callWithLogger
+	    return callWithContext({"system": lp}, func, *args, **kw)
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/python/log.py", line 84, in callWithContext
+	    return context.call({ILogContext: newCtx}, func, *args, **kw)
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/python/context.py", line 118, in callWithContext
+	    return self.currentContext().callWithContext(ctx, func, *args, **kw)
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/python/context.py", line 81, in callWithContext
+	    return func(*args,**kw)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/internet/posixbase.py", line 611, in _doReadOrWrite
+	    why = selectable.doRead()
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/internet/tcp.py", line 209, in doRead
+	    return self._dataReceived(data)
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/internet/tcp.py", line 215, in _dataReceived
+	    rval = self.protocol.dataReceived(data)
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/spread/banana.py", line 185, in dataReceived
+	    raise BananaError("Security precaution: more than %d bytes of prefix" % (self.prefixLimit,))
+	twisted.spread.banana.BananaError: Security precaution: more than 64 bytes of prefix
+	
+2017-02-18 10:22:59+0800 [BilateralBroker,548,14.18.28.10] node [548] lose
+2017-02-18 10:23:04+0800 [BilateralBroker,549,14.18.28.10] node [549] lose
+2017-02-18 10:23:04+0800 [BilateralBroker,550,14.18.28.10] Unhandled Error
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/python/log.py", line 101, in callWithLogger
+	    return callWithContext({"system": lp}, func, *args, **kw)
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/python/log.py", line 84, in callWithContext
+	    return context.call({ILogContext: newCtx}, func, *args, **kw)
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/python/context.py", line 118, in callWithContext
+	    return self.currentContext().callWithContext(ctx, func, *args, **kw)
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/python/context.py", line 81, in callWithContext
+	    return func(*args,**kw)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/internet/posixbase.py", line 611, in _doReadOrWrite
+	    why = selectable.doRead()
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/internet/tcp.py", line 209, in doRead
+	    return self._dataReceived(data)
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/internet/tcp.py", line 215, in _dataReceived
+	    rval = self.protocol.dataReceived(data)
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/spread/banana.py", line 240, in dataReceived
+	    raise NotImplementedError(("Invalid Type Byte %r" % (typebyte,)))
+	exceptions.NotImplementedError: Invalid Type Byte '\xe0'
+	
+2017-02-18 10:23:04+0800 [BilateralBroker,550,14.18.28.10] node [550] lose
+2017-02-18 10:23:04+0800 [BilateralBroker,551,14.18.28.10] Unhandled Error
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/python/log.py", line 101, in callWithLogger
+	    return callWithContext({"system": lp}, func, *args, **kw)
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/python/log.py", line 84, in callWithContext
+	    return context.call({ILogContext: newCtx}, func, *args, **kw)
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/python/context.py", line 118, in callWithContext
+	    return self.currentContext().callWithContext(ctx, func, *args, **kw)
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/python/context.py", line 81, in callWithContext
+	    return func(*args,**kw)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/internet/posixbase.py", line 611, in _doReadOrWrite
+	    why = selectable.doRead()
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/internet/tcp.py", line 209, in doRead
+	    return self._dataReceived(data)
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/internet/tcp.py", line 215, in _dataReceived
+	    rval = self.protocol.dataReceived(data)
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/spread/banana.py", line 240, in dataReceived
+	    raise NotImplementedError(("Invalid Type Byte %r" % (typebyte,)))
+	exceptions.NotImplementedError: Invalid Type Byte '\xff'
+	
+2017-02-18 10:23:04+0800 [BilateralBroker,551,14.18.28.10] node [551] lose
+2017-02-18 10:23:09+0800 [BilateralBroker,552,14.18.28.10] node [552] lose
+2017-02-18 10:23:09+0800 [BilateralBroker,553,14.18.28.10] Unhandled Error
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/python/log.py", line 101, in callWithLogger
+	    return callWithContext({"system": lp}, func, *args, **kw)
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/python/log.py", line 84, in callWithContext
+	    return context.call({ILogContext: newCtx}, func, *args, **kw)
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/python/context.py", line 118, in callWithContext
+	    return self.currentContext().callWithContext(ctx, func, *args, **kw)
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/python/context.py", line 81, in callWithContext
+	    return func(*args,**kw)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/internet/posixbase.py", line 611, in _doReadOrWrite
+	    why = selectable.doRead()
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/internet/tcp.py", line 209, in doRead
+	    return self._dataReceived(data)
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/internet/tcp.py", line 215, in _dataReceived
+	    rval = self.protocol.dataReceived(data)
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/spread/banana.py", line 240, in dataReceived
+	    raise NotImplementedError(("Invalid Type Byte %r" % (typebyte,)))
+	exceptions.NotImplementedError: Invalid Type Byte '\xfd'
+	
+2017-02-18 10:23:09+0800 [BilateralBroker,553,14.18.28.10] node [553] lose
+2017-02-18 10:23:09+0800 [BilateralBroker,554,14.18.28.10] Unhandled Error
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/python/log.py", line 101, in callWithLogger
+	    return callWithContext({"system": lp}, func, *args, **kw)
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/python/log.py", line 84, in callWithContext
+	    return context.call({ILogContext: newCtx}, func, *args, **kw)
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/python/context.py", line 118, in callWithContext
+	    return self.currentContext().callWithContext(ctx, func, *args, **kw)
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/python/context.py", line 81, in callWithContext
+	    return func(*args,**kw)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/internet/posixbase.py", line 611, in _doReadOrWrite
+	    why = selectable.doRead()
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/internet/tcp.py", line 209, in doRead
+	    return self._dataReceived(data)
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/internet/tcp.py", line 215, in _dataReceived
+	    rval = self.protocol.dataReceived(data)
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/spread/banana.py", line 240, in dataReceived
+	    raise NotImplementedError(("Invalid Type Byte %r" % (typebyte,)))
+	exceptions.NotImplementedError: Invalid Type Byte '\xff'
+	
+2017-02-18 10:23:09+0800 [BilateralBroker,554,14.18.28.10] node [554] lose
+2017-02-18 10:23:14+0800 [BilateralBroker,555,14.18.28.10] node [555] lose
+2017-02-18 10:23:19+0800 [BilateralBroker,556,14.18.28.10] node [556] lose
+2017-02-18 10:23:19+0800 [BilateralBroker,557,14.18.28.10] The client selected a protocol the server didn't suggest and doesn't know: disconnecting.
+2017-02-18 10:23:19+0800 [BilateralBroker,557,14.18.28.10] Unhandled Error
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/python/log.py", line 101, in callWithLogger
+	    return callWithContext({"system": lp}, func, *args, **kw)
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/python/log.py", line 84, in callWithContext
+	    return context.call({ILogContext: newCtx}, func, *args, **kw)
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/python/context.py", line 118, in callWithContext
+	    return self.currentContext().callWithContext(ctx, func, *args, **kw)
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/python/context.py", line 81, in callWithContext
+	    return func(*args,**kw)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/internet/posixbase.py", line 611, in _doReadOrWrite
+	    why = selectable.doRead()
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/internet/tcp.py", line 209, in doRead
+	    return self._dataReceived(data)
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/internet/tcp.py", line 215, in _dataReceived
+	    rval = self.protocol.dataReceived(data)
+	  File "/usr/local/lib/python2.7/site-packages/Twisted-15.2.1-py2.7-linux-x86_64.egg/twisted/spread/banana.py", line 240, in dataReceived
+	    raise NotImplementedError(("Invalid Type Byte %r" % (typebyte,)))
+	exceptions.NotImplementedError: Invalid Type Byte '\xc1'
+	
+2017-02-18 10:23:19+0800 [BilateralBroker,557,14.18.28.10] node [557] lose

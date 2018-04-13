@@ -1,0 +1,70 @@
+2016-08-11 07:19:36+0800 [-] Log opened.
+2016-08-11 07:19:36+0800 [-] DelaySite starting on 11821
+2016-08-11 07:19:36+0800 [-] Starting factory <firefly.web.delayrequest.DelaySite instance at 0x7f067a880f38>
+2016-08-11 07:19:36+0800 [-] BilateralFactory starting on 11812
+2016-08-11 07:19:36+0800 [-] Starting factory <firefly.distributed.root.BilateralFactory instance at 0x7f067a8916c8>
+2016-08-11 07:19:37+0800 [BilateralBroker,0,127.0.0.1] node [share] takeProxy ready
+2016-08-11 07:19:37+0800 [BilateralBroker,1,127.0.0.1] node [net] takeProxy ready
+2016-08-11 07:19:37+0800 [BilateralBroker,2,127.0.0.1] node [auth] takeProxy ready
+2016-08-11 07:19:37+0800 [BilateralBroker,3,127.0.0.1] node [game8] takeProxy ready
+2016-08-11 07:19:37+0800 [BilateralBroker,4,127.0.0.1] node [game5] takeProxy ready
+2016-08-11 07:19:38+0800 [BilateralBroker,5,127.0.0.1] node [game3] takeProxy ready
+2016-08-11 07:19:38+0800 [BilateralBroker,6,127.0.0.1] node [game2] takeProxy ready
+2016-08-11 07:19:38+0800 [BilateralBroker,7,127.0.0.1] node [game7] takeProxy ready
+2016-08-11 07:19:38+0800 [BilateralBroker,8,127.0.0.1] node [game6] takeProxy ready
+2016-08-11 07:19:38+0800 [BilateralBroker,9,127.0.0.1] node [game4] takeProxy ready
+2016-08-11 07:19:38+0800 [BilateralBroker,10,127.0.0.1] node [game1] takeProxy ready
+2016-08-11 07:19:38+0800 [BilateralBroker,11,127.0.0.1] node [gate] takeProxy ready
+2016-08-16 23:33:19+0800 [-] "58.62.102.188" - - [16/Aug/2016:15:33:18 +0000] "GET /Information HTTP/1.1" 404 168 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.8 Safari/537.36"
+2016-08-16 23:33:19+0800 [-] "58.62.102.188" - - [16/Aug/2016:15:33:18 +0000] "GET /favicon.ico HTTP/1.1" 404 168 "http://120.76.153.160:11821/Information" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.8 Safari/537.36"
+2016-08-22 05:42:04+0800 [-] "127.0.0.1" - - [21/Aug/2016:21:42:04 +0000] "GET /stop HTTP/1.0" 200 4 "-" "Python-urllib/1.17"
+2016-08-22 05:42:05+0800 [BilateralBroker,5,127.0.0.1] node [5] lose
+2016-08-22 05:42:05+0800 [BilateralBroker,8,127.0.0.1] node [8] lose
+2016-08-22 05:42:05+0800 [BilateralBroker,0,127.0.0.1] node [0] lose
+2016-08-22 05:42:05+0800 [BilateralBroker,1,127.0.0.1] node [1] lose
+2016-08-22 05:42:05+0800 [BilateralBroker,11,127.0.0.1] node [11] lose
+2016-08-22 05:42:05+0800 [-] Unhandled error in Deferred:
+2016-08-22 05:42:05+0800 [-] Unhandled Error
+	Traceback (most recent call last):
+	Failure: twisted.spread.pb.PBConnectionLost: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
+	]
+	
+2016-08-22 05:42:05+0800 [BilateralBroker,6,127.0.0.1] node [6] lose
+2016-08-22 05:42:05+0800 [BilateralBroker,9,127.0.0.1] node [9] lose
+2016-08-22 05:42:05+0800 [firefly.distributed.root.BilateralFactory] (TCP Port 11812 Closed)
+2016-08-22 05:42:05+0800 [firefly.distributed.root.BilateralFactory] Stopping factory <firefly.distributed.root.BilateralFactory instance at 0x7f067a8916c8>
+2016-08-22 05:42:05+0800 [BilateralBroker,7,127.0.0.1] node [7] lose
+2016-08-22 05:42:05+0800 [-] Unhandled error in Deferred:
+2016-08-22 05:42:05+0800 [-] Unhandled Error
+	Traceback (most recent call last):
+	Failure: twisted.spread.pb.PBConnectionLost: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
+	]
+	
+2016-08-22 05:42:05+0800 [BilateralBroker,10,127.0.0.1] node [10] lose
+2016-08-22 05:42:05+0800 [BilateralBroker,2,127.0.0.1] node [2] lose
+2016-08-22 05:42:05+0800 [BilateralBroker,3,127.0.0.1] node [3] lose
+2016-08-22 05:42:05+0800 [firefly.web.delayrequest.DelaySite] (TCP Port 11821 Closed)
+2016-08-22 05:42:05+0800 [firefly.web.delayrequest.DelaySite] Stopping factory <firefly.web.delayrequest.DelaySite instance at 0x7f067a880f38>
+2016-08-22 05:42:05+0800 [BilateralBroker,4,127.0.0.1] node [4] lose
+2016-08-22 05:42:05+0800 [-] Main loop terminated.
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f7e00a23e10>> ignored
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7eff297b0e10>> ignored
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f29443e5e10>> ignored
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7febf7f57e10>> ignored
+DELETE FROM tb_item WHERE id=123
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f945e67de10>> ignored
+DELETE FROM tb_item WHERE id=123
+DELETE FROM tb_item WHERE id=123
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f12fe14ae10>> ignored
+DELETE FROM tb_item WHERE id=123
+DELETE FROM tb_item WHERE id=123
+DELETE FROM tb_item WHERE id=123
+Exception TypeError: "'NoneType' objectException TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f5f0e1f9e10>> ignored
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f0f0a3a9e10>> ignored
+ is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f8747f08e10>> ignored
+DELETE FROM tb_item WHERE id=123
+DELETE FROM tb_item WHERE id=123
+DELETE FROM tb_item WHERE id=123
+DELETE FROM tb_item WHERE id=123
+Exception TypeError: "'NoneType' object is not callable" in <bound method DBPool.__del__ of <app.util.driver.dbpool.DBPool object at 0x7f4bfd7d7e10>> ignored
+DELETE FROM tb_item WHERE id=123
